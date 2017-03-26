@@ -1,0 +1,3913 @@
+@-webkit-keyframes section-1-rocket-shake {
+  0% {
+    -webkit-transform: translate(2px, 1px) rotate(0deg);
+  }
+
+  10% {
+    -webkit-transform: translate(-1px, -2px) rotate(-1deg);
+  }
+
+  20% {
+    -webkit-transform: translate(-3px, 0px) rotate(1deg);
+  }
+
+  30% {
+    -webkit-transform: translate(0px, 2px) rotate(0deg);
+  }
+
+  40% {
+    -webkit-transform: translate(1px, -1px) rotate(1deg);
+  }
+
+  50% {
+    -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+  }
+
+  60% {
+    -webkit-transform: translate(-3px, 1px) rotate(0deg);
+  }
+
+  70% {
+    -webkit-transform: translate(2px, 1px) rotate(-1deg);
+  }
+
+  80% {
+    -webkit-transform: translate(-1px, -1px) rotate(1deg);
+  }
+
+  90% {
+    -webkit-transform: translate(1px, 2px) rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: translate(2px, 1px) rotate(0deg);
+  }
+}
+
+@keyframes section-1-rocket-shake {
+  0% {
+    transform: translate(2px, 1px) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+
+  30% {
+    transform: translate(0px, 2px) rotate(0deg);
+  }
+
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+
+  70% {
+    transform: translate(2px, 1px) rotate(-1deg);
+  }
+
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(2px, 1px) rotate(0deg);
+  }
+}
+
+@-webkit-keyframes section-1-smoke-2 {
+  0% {
+    -webkit-transform: scale(1) rotate(0deg);
+  }
+
+  25% {
+    -webkit-transform: scale(0.95) rotate(-1deg);
+  }
+
+  50% {
+    -webkit-transform: scale(1.05) rotate(1deg);
+  }
+
+  75% {
+    -webkit-transform: scale(0.93) rotate(-1deg);
+  }
+
+  90% {
+    -webkit-transform: scale(1.05) rotate(1deg);
+  }
+
+  100% {
+    -webkit-transform: scale(1) rotate(0deg);
+  }
+}
+
+@keyframes section-1-smoke-2 {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+
+  25% {
+    transform: scale(0.95) rotate(-1deg);
+  }
+
+  50% {
+    transform: scale(1.05) rotate(1deg);
+  }
+
+  75% {
+    transform: scale(0.93) rotate(-1deg);
+  }
+
+  90% {
+    transform: scale(1.05) rotate(1deg);
+  }
+
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+@-webkit-keyframes section-1-smoke-2-transition {
+  0% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: scale(100);
+    opacity: 0;
+  }
+}
+
+@keyframes section-1-smoke-2-transition {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(100);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes section-1-smoke-1 {
+  0% {
+    -webkit-transform: scale(1) rotate(1deg);
+  }
+
+  25% {
+    -webkit-transform: scale(1.07) rotate(0deg);
+  }
+
+  50% {
+    -webkit-transform: scale(0.97) rotate(-1deg);
+  }
+
+  75% {
+    -webkit-transform: scale(1.02) rotate(1deg);
+  }
+
+  90% {
+    -webkit-transform: scale(0.95) rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: scale(1) rotate(1deg);
+  }
+}
+
+@keyframes section-1-smoke-1 {
+  0% {
+    transform: scale(1) rotate(1deg);
+  }
+
+  25% {
+    transform: scale(1.07) rotate(0deg);
+  }
+
+  50% {
+    transform: scale(0.97) rotate(-1deg);
+  }
+
+  75% {
+    transform: scale(1.02) rotate(1deg);
+  }
+
+  90% {
+    transform: scale(0.95) rotate(0deg);
+  }
+
+  100% {
+    transform: scale(1) rotate(1deg);
+  }
+}
+
+@-webkit-keyframes section-1-arrow {
+  0% {
+    -webkit-transform: translate(2px, 2px);
+  }
+
+  33% {
+    -webkit-transform: translate(0px, 0px);
+  }
+
+  66% {
+    -webkit-transform: translate(2px, 2px);
+  }
+
+  100% {
+    -webkit-transform: translate(0px, 0px);
+  }
+}
+
+@keyframes section-1-arrow {
+  0% {
+    transform: translate(2px, 2px);
+  }
+
+  33% {
+    transform: translate(0px, 0px);
+  }
+
+  66% {
+    transform: translate(2px, 2px);
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@-webkit-keyframes section-1-cloud {
+  0% {
+    margin-left: -40%;
+    opacity: 0;
+  }
+
+  5% {
+    opacity: 1;
+  }
+
+  95% {
+    opacity: 1;
+  }
+
+  100% {
+    margin-left: 40%;
+    opacity: 0;
+  }
+}
+
+@keyframes section-1-cloud {
+  0% {
+    margin-left: -40%;
+    opacity: 0;
+  }
+
+  5% {
+    opacity: 1;
+  }
+
+  95% {
+    opacity: 1;
+  }
+
+  100% {
+    margin-left: 40%;
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes section-2-rocket {
+  0% {
+    top: 2000px;
+    opacity: 1;
+  }
+
+  100% {
+    top: -2000px;
+    opacity: 1;
+  }
+}
+
+@keyframes section-2-rocket {
+  0% {
+    top: 2000px;
+    opacity: 1;
+  }
+
+  100% {
+    top: -2000px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes section-2-baloon {
+  0% {
+    -webkit-transform: translate(0, 2px) rotate(4deg);
+  }
+
+  33% {
+    -webkit-transform: translate(-20px, 6px) rotate(-3deg);
+  }
+
+  66% {
+    -webkit-transform: translate(20px, 4px) rotate(3deg);
+  }
+
+  100% {
+    -webkit-transform: translate(0px, 2px) rotate(4deg);
+  }
+}
+
+@keyframes section-2-baloon {
+  0% {
+    transform: translate(0, 2px) rotate(4deg);
+  }
+
+  33% {
+    transform: translate(-20px, 6px) rotate(-3deg);
+  }
+
+  66% {
+    transform: translate(20px, 4px) rotate(3deg);
+  }
+
+  100% {
+    transform: translate(0px, 2px) rotate(4deg);
+  }
+}
+
+@-webkit-keyframes section-3-wave-1 {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+  }
+
+  15% {
+    -webkit-transform: scale(1.2);
+  }
+
+  30% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes section-3-wave-1 {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+
+  15% {
+    transform: scale(1.2);
+  }
+
+  30% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes section-3-wave-2 {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+  }
+
+  30% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+  }
+
+  45% {
+    -webkit-transform: scale(1.2);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes section-3-wave-2 {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+
+  30% {
+    opacity: 0;
+    transform: scale(1);
+  }
+
+  45% {
+    transform: scale(1.2);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes section-3-wave-3 {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+  }
+
+  60% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+  }
+
+  75% {
+    -webkit-transform: scale(1.2);
+  }
+
+  90% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes section-3-wave-3 {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+
+  60% {
+    opacity: 0;
+    transform: scale(1);
+  }
+
+  75% {
+    transform: scale(1.2);
+  }
+
+  90% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes section-5-star {
+  0% {
+    -webkit-transform: scale(1) rotate(0deg);
+  }
+
+  25% {
+    -webkit-transform: scale(1.5) rotate(-3deg);
+  }
+
+  50% {
+    -webkit-transform: scale(1.1) rotate(3deg);
+  }
+
+  75% {
+    -webkit-transform: scale(1.4) rotate(-1deg);
+  }
+
+  100% {
+    -webkit-transform: scale(1) rotate(0deg);
+  }
+}
+
+@keyframes section-5-star {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+
+  25% {
+    transform: scale(1.5) rotate(-3deg);
+  }
+
+  50% {
+    transform: scale(1.1) rotate(3deg);
+  }
+
+  75% {
+    transform: scale(1.4) rotate(-1deg);
+  }
+
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+@-webkit-keyframes section-5-star-big {
+  0% {
+    -webkit-transform: scale(1) rotate(0deg);
+  }
+
+  25% {
+    -webkit-transform: scale(1.15) rotate(2deg);
+  }
+
+  50% {
+    -webkit-transform: scale(0.9) rotate(-3deg);
+  }
+
+  75% {
+    -webkit-transform: scale(1.15) rotate(1deg);
+  }
+
+  100% {
+    -webkit-transform: scale(1) rotate(0deg);
+  }
+}
+
+@keyframes section-5-star-big {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+
+  25% {
+    transform: scale(1.15) rotate(2deg);
+  }
+
+  50% {
+    transform: scale(0.9) rotate(-3deg);
+  }
+
+  75% {
+    transform: scale(1.15) rotate(1deg);
+  }
+
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+@-webkit-keyframes section-5-hand {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(-25deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+@keyframes section-5-hand {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-25deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes section-1-rocket-shake {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  25% {
+    -webkit-transform: rotate(0.5deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(-0.5deg);
+  }
+
+  75% {
+    -webkit-transform: rotate(0.5deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+@keyframes section-6-rocket {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(0.5deg);
+  }
+
+  50% {
+    transform: rotate(-0.5deg);
+  }
+
+  75% {
+    transform: rotate(0.5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes section-6-fire {
+  0% {
+    -webkit-transform: scale(1) rotate(0deg);
+  }
+
+  25% {
+    -webkit-transform: scale(1.15) rotate(1deg);
+  }
+
+  50% {
+    -webkit-transform: scale(0.9) rotate(-1deg);
+  }
+
+  75% {
+    -webkit-transform: scale(1.15) rotate(1deg);
+  }
+
+  100% {
+    -webkit-transform: scale(1) rotate(0deg);
+  }
+}
+
+@keyframes section-6-fire {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+
+  25% {
+    transform: scale(1.05) rotate(1deg);
+  }
+
+  50% {
+    transform: scale(0.95) rotate(-1deg);
+  }
+
+  75% {
+    transform: scale(1.07) rotate(1deg);
+  }
+
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+@-webkit-keyframes section-6-fire-2 {
+  0% {
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 0;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 0;
+  }
+}
+
+@keyframes section-6-fire-2 {
+  0% {
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 0;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes section-6-fire-3 {
+  0% {
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 0;
+  }
+
+  60% {
+    opacity: 0;
+  }
+
+  90% {
+    opacity: 0.4;
+  }
+}
+
+@keyframes section-6-fire-3 {
+  0% {
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 0;
+  }
+
+  60% {
+    opacity: 0;
+  }
+
+  90% {
+    opacity: 0.4;
+  }
+}
+
+@-webkit-keyframes section-6-meteor-1 {
+  0% {
+    -webkit-transform: translate(7px, 6px) rotate(0deg);
+  }
+
+  10% {
+    -webkit-transform: translate(-6px, -7px) rotate(-2deg);
+  }
+
+  20% {
+    -webkit-transform: translate(-8px, 0px) rotate(2deg);
+  }
+
+  30% {
+    -webkit-transform: translate(0px, 7px) rotate(0deg);
+  }
+
+  40% {
+    -webkit-transform: translate(6px, -6px) rotate(4deg);
+  }
+
+  50% {
+    -webkit-transform: translate(-6px, 7px) rotate(-2deg);
+  }
+
+  60% {
+    -webkit-transform: translate(-8px, 6px) rotate(0deg);
+  }
+
+  70% {
+    -webkit-transform: translate(7px, 6px) rotate(-2deg);
+  }
+
+  80% {
+    -webkit-transform: translate(-6px, -6px) rotate(5deg);
+  }
+
+  90% {
+    -webkit-transform: translate(3px, 4px) rotate(1deg);
+  }
+
+  100% {
+    -webkit-transform: translate(7px, 6px) rotate(0deg);
+  }
+}
+
+@keyframes section-6-meteor-1 {
+  0% {
+    transform: translate(7px, 6px) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(-6px, -7px) rotate(-2deg);
+  }
+
+  20% {
+    transform: translate(-8px, 0px) rotate(2deg);
+  }
+
+  30% {
+    transform: translate(0px, 7px) rotate(0deg);
+  }
+
+  40% {
+    transform: translate(6px, -6px) rotate(4deg);
+  }
+
+  50% {
+    transform: translate(-6px, 7px) rotate(-2deg);
+  }
+
+  60% {
+    transform: translate(-8px, 6px) rotate(0deg);
+  }
+
+  70% {
+    transform: translate(7px, 6px) rotate(-2deg);
+  }
+
+  80% {
+    transform: translate(-6px, -6px) rotate(5deg);
+  }
+
+  90% {
+    transform: translate(3px, 4px) rotate(1deg);
+  }
+
+  100% {
+    transform: translate(7px, 6px) rotate(0deg);
+  }
+}
+
+@-webkit-keyframes section-6-meteor-2 {
+  0% {
+    -webkit-transform: translate(-4px, 2px) rotate(1deg);
+  }
+
+  10% {
+    -webkit-transform: translate(5px, 1px) rotate(-2deg);
+  }
+
+  20% {
+    -webkit-transform: translate(3px, -4px) rotate(0deg);
+  }
+
+  30% {
+    -webkit-transform: translate(-1px, 6px) rotate(-2deg);
+  }
+
+  40% {
+    -webkit-transform: translate(-2px, -4px) rotate(0deg);
+  }
+
+  50% {
+    -webkit-transform: translate(5px, 2px) rotate(0deg);
+  }
+
+  60% {
+    -webkit-transform: translate(1px, -4px) rotate(-2deg);
+  }
+
+  70% {
+    -webkit-transform: translate(-2px, 0px) rotate(2deg);
+  }
+
+  80% {
+    -webkit-transform: translate(-4px, 3px) rotate(0deg);
+  }
+
+  90% {
+    -webkit-transform: translate(2px, -5px) rotate(-2deg);
+  }
+
+  100% {
+    -webkit-transform: translate(-4px, 2px) rotate(1deg);
+  }
+}
+
+@keyframes section-6-meteor-2 {
+  0% {
+    transform: translate(-4px, 2px) rotate(1deg);
+  }
+
+  10% {
+    transform: translate(5px, 1px) rotate(-2deg);
+  }
+
+  20% {
+    transform: translate(3px, -4px) rotate(0deg);
+  }
+
+  30% {
+    transform: translate(-1px, 6px) rotate(-2deg);
+  }
+
+  40% {
+    transform: translate(-2px, -4px) rotate(0deg);
+  }
+
+  50% {
+    transform: translate(5px, 2px) rotate(0deg);
+  }
+
+  60% {
+    transform: translate(1px, -4px) rotate(-2deg);
+  }
+
+  70% {
+    transform: translate(-2px, 0px) rotate(2deg);
+  }
+
+  80% {
+    transform: translate(-4px, 3px) rotate(0deg);
+  }
+
+  90% {
+    transform: translate(2px, -5px) rotate(-2deg);
+  }
+
+  100% {
+    transform: translate(-4px, 2px) rotate(1deg);
+  }
+}
+
+@-webkit-keyframes section-6-meteor-3 {
+  0% {
+    -webkit-transform: translate(2px, 3px) rotate(0deg);
+  }
+
+  10% {
+    -webkit-transform: translate(-3px, -5px) rotate(2deg);
+  }
+
+  20% {
+    -webkit-transform: translate(4px, 4px) rotate(0deg);
+  }
+
+  30% {
+    -webkit-transform: translate(2px, 5px) rotate(-2deg);
+  }
+
+  40% {
+    -webkit-transform: translate(0px, -6px) rotate(2deg);
+  }
+
+  50% {
+    -webkit-transform: translate(5px, -3px) rotate(0deg);
+  }
+
+  60% {
+    -webkit-transform: translate(4px, 6px) rotate(0deg);
+  }
+
+  70% {
+    -webkit-transform: translate(1px, -3px) rotate(-2deg);
+  }
+
+  80% {
+    -webkit-transform: translate(-5px, -6px) rotate(2deg);
+  }
+
+  90% {
+    -webkit-transform: translate(7px, 4px) rotate(-2deg);
+  }
+
+  100% {
+    -webkit-transform: translate(2px, 3px) rotate(0deg);
+  }
+}
+
+@keyframes section-6-meteor-3 {
+  0% {
+    transform: translate(2px, 3px) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(-3px, -5px) rotate(2deg);
+  }
+
+  20% {
+    transform: translate(4px, 4px) rotate(0deg);
+  }
+
+  30% {
+    transform: translate(2px, 5px) rotate(-2deg);
+  }
+
+  40% {
+    transform: translate(0px, -6px) rotate(2deg);
+  }
+
+  50% {
+    transform: translate(5px, -3px) rotate(0deg);
+  }
+
+  60% {
+    transform: translate(4px, 6px) rotate(0deg);
+  }
+
+  70% {
+    transform: translate(1px, -3px) rotate(-2deg);
+  }
+
+  80% {
+    transform: translate(-5px, -6px) rotate(2deg);
+  }
+
+  90% {
+    transform: translate(7px, 4px) rotate(-2deg);
+  }
+
+  100% {
+    transform: translate(2px, 3px) rotate(0deg);
+  }
+}
+
+@-webkit-keyframes section-6-meteor-4 {
+  0% {
+    -webkit-transform: translate(-3px, 7px) rotate(2deg);
+  }
+
+  10% {
+    -webkit-transform: translate(4px, -5px) rotate(-3deg);
+  }
+
+  20% {
+    -webkit-transform: translate(2px, -6px) rotate(0deg);
+  }
+
+  30% {
+    -webkit-transform: translate(-1px, 3px) rotate(1deg);
+  }
+
+  40% {
+    -webkit-transform: translate(6px, 4px) rotate(0deg);
+  }
+
+  50% {
+    -webkit-transform: translate(-2px, 7px) rotate(-1deg);
+  }
+
+  60% {
+    -webkit-transform: translate(-4px, 6px) rotate(4deg);
+  }
+
+  70% {
+    -webkit-transform: translate(0px, -2px) rotate(0deg);
+  }
+
+  80% {
+    -webkit-transform: translate(-7px, 4px) rotate(1deg);
+  }
+
+  90% {
+    -webkit-transform: translate(3px, -2px) rotate(-2deg);
+  }
+
+  100% {
+    -webkit-transform: translate(-3px, 7px) rotate(2deg);
+  }
+}
+
+@keyframes section-6-meteor-4 {
+  0% {
+    transform: translate(-3px, 7px) rotate(2deg);
+  }
+
+  10% {
+    transform: translate(4px, -5px) rotate(-3deg);
+  }
+
+  20% {
+    transform: translate(2px, -6px) rotate(0deg);
+  }
+
+  30% {
+    transform: translate(-1px, 3px) rotate(1deg);
+  }
+
+  40% {
+    transform: translate(6px, 4px) rotate(0deg);
+  }
+
+  50% {
+    transform: translate(-2px, 7px) rotate(-1deg);
+  }
+
+  60% {
+    transform: translate(-4px, 6px) rotate(4deg);
+  }
+
+  70% {
+    transform: translate(0px, -2px) rotate(0deg);
+  }
+
+  80% {
+    transform: translate(-7px, 4px) rotate(1deg);
+  }
+
+  90% {
+    transform: translate(3px, -2px) rotate(-2deg);
+  }
+
+  100% {
+    transform: translate(-3px, 7px) rotate(2deg);
+  }
+}
+
+@-webkit-keyframes section-6-meteor-5 {
+  0% {
+    -webkit-transform: translate(-5px, 1px) rotate(0deg);
+  }
+
+  10% {
+    -webkit-transform: translate(3px, -4px) rotate(3deg);
+  }
+
+  20% {
+    -webkit-transform: translate(6px, 2px) rotate(0deg);
+  }
+
+  30% {
+    -webkit-transform: translate(0px, 7px) rotate(-4deg);
+  }
+
+  40% {
+    -webkit-transform: translate(-4px, 3px) rotate(0deg);
+  }
+
+  50% {
+    -webkit-transform: translate(7px, 6px) rotate(0deg);
+  }
+
+  60% {
+    -webkit-transform: translate(2px, 2px) rotate(-1deg);
+  }
+
+  70% {
+    -webkit-transform: translate(-3px, -6px) rotate(0deg);
+  }
+
+  80% {
+    -webkit-transform: translate(1px, 4px) rotate(3deg);
+  }
+
+  90% {
+    -webkit-transform: translate(3px, 2px) rotate(-2deg);
+  }
+
+  100% {
+    -webkit-transform: translate(-5px, 1px) rotate(0deg);
+  }
+}
+
+@keyframes section-6-meteor-5 {
+  0% {
+    transform: translate(-5px, 1px) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(3px, -4px) rotate(3deg);
+  }
+
+  20% {
+    transform: translate(6px, 2px) rotate(0deg);
+  }
+
+  30% {
+    transform: translate(0px, 7px) rotate(-4deg);
+  }
+
+  40% {
+    transform: translate(-4px, 3px) rotate(0deg);
+  }
+
+  50% {
+    transform: translate(7px, 6px) rotate(0deg);
+  }
+
+  60% {
+    transform: translate(2px, 2px) rotate(-1deg);
+  }
+
+  70% {
+    transform: translate(-3px, -6px) rotate(0deg);
+  }
+
+  80% {
+    transform: translate(1px, 4px) rotate(3deg);
+  }
+
+  90% {
+    transform: translate(3px, 2px) rotate(-2deg);
+  }
+
+  100% {
+    transform: translate(-5px, 1px) rotate(0deg);
+  }
+}
+
+@-webkit-keyframes section-6-meteor-6 {
+  0% {
+    -webkit-transform: translate(5px, 6px) rotate(2deg);
+  }
+
+  10% {
+    -webkit-transform: translate(4px, 8px) rotate(-4deg);
+  }
+
+  20% {
+    -webkit-transform: translate(-6px, 4px) rotate(0deg);
+  }
+
+  30% {
+    -webkit-transform: translate(-5px, -3px) rotate(0deg);
+  }
+
+  40% {
+    -webkit-transform: translate(8px, 0px) rotate(2deg);
+  }
+
+  50% {
+    -webkit-transform: translate(5px, -3px) rotate(0deg);
+  }
+
+  60% {
+    -webkit-transform: translate(-8px, 6px) rotate(-2deg);
+  }
+
+  70% {
+    -webkit-transform: translate(4px, -3px) rotate(0deg);
+  }
+
+  80% {
+    -webkit-transform: translate(5px, -6px) rotate(3deg);
+  }
+
+  90% {
+    -webkit-transform: translate(-5px, 8px) rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: translate(5px, 6px) rotate(2deg);
+  }
+}
+
+@keyframes section-6-meteor-6 {
+  0% {
+    transform: translate(5px, 6px) rotate(2deg);
+  }
+
+  10% {
+    transform: translate(4px, 8px) rotate(-4deg);
+  }
+
+  20% {
+    transform: translate(-6px, 4px) rotate(0deg);
+  }
+
+  30% {
+    transform: translate(-5px, -3px) rotate(0deg);
+  }
+
+  40% {
+    transform: translate(8px, 0px) rotate(2deg);
+  }
+
+  50% {
+    transform: translate(5px, -3px) rotate(0deg);
+  }
+
+  60% {
+    transform: translate(-8px, 6px) rotate(-2deg);
+  }
+
+  70% {
+    transform: translate(4px, -3px) rotate(0deg);
+  }
+
+  80% {
+    transform: translate(5px, -6px) rotate(3deg);
+  }
+
+  90% {
+    transform: translate(-5px, 8px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(5px, 6px) rotate(2deg);
+  }
+}
+
+@-webkit-keyframes section-6-meteor-7 {
+  0% {
+    -webkit-transform: translate(7px, -3px) rotate(3deg);
+  }
+
+  10% {
+    -webkit-transform: translate(2px, 0px) rotate(0deg);
+  }
+
+  20% {
+    -webkit-transform: translate(1px, -5px) rotate(-3deg);
+  }
+
+  30% {
+    -webkit-transform: translate(6px, 4px) rotate(4deg);
+  }
+
+  40% {
+    -webkit-transform: translate(2px, -1px) rotate(0deg);
+  }
+
+  50% {
+    -webkit-transform: translate(0px, 5px) rotate(-1deg);
+  }
+
+  60% {
+    -webkit-transform: translate(4px, -2px) rotate(0deg);
+  }
+
+  70% {
+    -webkit-transform: translate(7px, 5px) rotate(4deg);
+  }
+
+  80% {
+    -webkit-transform: translate(-2px, 0px) rotate(-2deg);
+  }
+
+  90% {
+    -webkit-transform: translate(3px, 6px) rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: translate(7px, -3px) rotate(3deg);
+  }
+}
+
+@keyframes section-6-meteor-7 {
+  0% {
+    transform: translate(7px, -3px) rotate(3deg);
+  }
+
+  10% {
+    transform: translate(2px, 0px) rotate(0deg);
+  }
+
+  20% {
+    transform: translate(1px, -5px) rotate(-3deg);
+  }
+
+  30% {
+    transform: translate(6px, 4px) rotate(4deg);
+  }
+
+  40% {
+    transform: translate(2px, -1px) rotate(0deg);
+  }
+
+  50% {
+    transform: translate(0px, 5px) rotate(-1deg);
+  }
+
+  60% {
+    transform: translate(4px, -2px) rotate(0deg);
+  }
+
+  70% {
+    transform: translate(7px, 5px) rotate(4deg);
+  }
+
+  80% {
+    transform: translate(-2px, 0px) rotate(-2deg);
+  }
+
+  90% {
+    transform: translate(3px, 6px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(7px, -3px) rotate(3deg);
+  }
+}
+
+@-webkit-keyframes section-7-plane-1 {
+  0% {
+    -webkit-transform: translate(0, 1px) rotate(2deg);
+  }
+
+  33% {
+    -webkit-transform: translate(1px, 2px) rotate(-3deg);
+  }
+
+  66% {
+    -webkit-transform: translate(-2px, -1px) rotate(-1deg);
+  }
+
+  100% {
+    -webkit-transform: translate(0px, 1px) rotate(2deg);
+  }
+}
+
+@keyframes section-7-plane-1 {
+  0% {
+    transform: translate(0, 1px) rotate(2deg);
+  }
+
+  33% {
+    transform: translate(1px, 2px) rotate(-3deg);
+  }
+
+  66% {
+    transform: translate(-2px, -1px) rotate(-1deg);
+  }
+
+  100% {
+    transform: translate(0px, 1px) rotate(2deg);
+  }
+}
+
+@-webkit-keyframes section-7-plane-2 {
+  0% {
+    -webkit-transform: translate(2px, -1px) rotate(-2deg);
+  }
+
+  33% {
+    -webkit-transform: translate(-1px, -2px) rotate(1deg);
+  }
+
+  66% {
+    -webkit-transform: translate(0px, 1px) rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: translate(2px, -1px) rotate(-2deg);
+  }
+}
+
+@keyframes section-7-plane-2 {
+  0% {
+    transform: translate(2px, -1px) rotate(-2deg);
+  }
+
+  33% {
+    transform: translate(-1px, -2px) rotate(1deg);
+  }
+
+  66% {
+    transform: translate(0px, 1px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(2px, -1px) rotate(-2deg);
+  }
+}
+
+@-webkit-keyframes section-7-plane-3 {
+  0% {
+    -webkit-transform: translate(1px, -1px) rotate(3deg);
+  }
+
+  33% {
+    -webkit-transform: translate(2px, 1px) rotate(0deg);
+  }
+
+  66% {
+    -webkit-transform: translate(-2px, 0px) rotate(-1deg);
+  }
+
+  100% {
+    -webkit-transform: translate(1px, -1px) rotate(3deg);
+  }
+}
+
+@keyframes section-7-plane-3 {
+  0% {
+    transform: translate(1px, -1px) rotate(3deg);
+  }
+
+  33% {
+    transform: translate(2px, 1px) rotate(0deg);
+  }
+
+  66% {
+    transform: translate(-2px, 0px) rotate(-1deg);
+  }
+
+  100% {
+    transform: translate(1px, -1px) rotate(3deg);
+  }
+}
+
+@-webkit-keyframes section-7-plane-send-1 {
+  0% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    left: -100%;
+    top: -65%;
+    opacity: 0;
+  }
+}
+
+@keyframes section-7-plane-send-1 {
+  0% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    left: -100%;
+    top: -65%;
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes section-7-plane-send-2 {
+  0% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    left: -100%;
+    top: -57%;
+    opacity: 0;
+  }
+}
+
+@keyframes section-7-plane-send-2 {
+  0% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    left: -100%;
+    top: -57%;
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes section-7-plane-send-3 {
+  0% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    left: -80%;
+    top: -63%;
+    opacity: 0;
+  }
+}
+
+@keyframes section-7-plane-send-3 {
+  0% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    left: -80%;
+    top: -63%;
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes animate-text {
+  from {
+    -webkit-transform: scale(0) translate(-100px, 0);
+  }
+
+  to {
+    -webkit-transform: scale(1) translate(0, 0);
+  }
+}
+
+@keyframes animate-text {
+  from {
+    transform: scale(0) translate(-100px, 0);
+  }
+
+  to {
+    transform: scale(1) translate(0, 0);
+  }
+}
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'icomoon';
+  src: url("fonts/icomoon/icomoon.eot?-9heso");
+  src: url("fonts/icomoon/icomoon.eot?#iefix-9heso") format("embedded-opentype"), url("fonts/icomoon/icomoon.woff?-9heso") format("woff"), url("fonts/icomoon/icomoon.ttf?-9heso") format("truetype"), url("fonts/icomoon/icomoon.svg?-9heso#icomoon") format("svg");
+}
+
+.simform {
+  position: relative;
+  margin: 0.75em auto;
+  padding: 0;
+  max-width: 490px;
+  width: 37%;
+  text-align: left;
+  font-size: 13px;
+  float: left;
+}
+@media only screen and (max-width: 767px) {
+  .simform {
+    width: 100%;
+    max-width: 250px;
+  }
+}
+
+.simform .simform-inner {
+  position: relative;
+}
+
+.simform .submit {
+  display: none;
+}
+
+/* Question list style */
+.simform ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  -webkit-transition: height 0.4s;
+  transition: height 0.4s;
+}
+
+.simform ol:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 56px;
+}
+
+.questions li {
+  z-index: 100;
+  position: relative;
+  visibility: hidden;
+  height: 0;
+  -webkit-transition: visibility 0s 0.4s, height 0s 0.4s;
+  transition: visibility 0s 0.4s, height 0s 0.4s;
+}
+
+.questions li.current,
+.no-js .questions li {
+  visibility: visible;
+  height: auto;
+  -webkit-transition: none;
+  transition: none;
+}
+
+/* Labels */
+.questions li > span {
+  display: block;
+  overflow: hidden;
+}
+
+.questions li > span label {
+  display: block;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.questions li.current > span label,
+.no-js .questions li > span label {
+  -webkit-transition: none;
+  transition: none;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.show-next .questions li.current > span label {
+  -webkit-animation: moveUpFromDown 0.4s both;
+  animation: moveUpFromDown 0.4s both;
+}
+
+@-webkit-keyframes moveUpFromDown {
+  from {
+    -webkit-transform: translateY(100%);
+  }
+
+  to {
+    -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes moveUpFromDown {
+  from {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+/* Input field */
+.questions input, .questions textarea {
+  font-size: inherit;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  font-style: italic;
+  display: block;
+  margin: 0;
+  padding: 0 1.2em;
+  width: 100%;
+  border: none;
+  color: #097789;
+  line-height: 2.7;
+  height: 2.6em;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  background-color: rgba(255, 255, 255, 0.6);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+.questions textarea {
+  padding: 0.5em 1em 0.5em 0.7em;
+  line-height: 1.5;
+  resize: none;
+  height: 10em;
+  overflow: auto;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #097789;
+  opacity: 1;
+}
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #097789;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #097789;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #097789;
+  opacity: 1;
+}
+
+.questions .current input,
+.no-js .questions input,
+.questions .current textarea,
+.no-js .questions textarea {
+  opacity: 1;
+}
+
+.questions input:focus,
+.questions textarea:focus,
+.simform button:focus {
+  outline: none;
+}
+
+/* Next question button */
+.next {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  padding: 0;
+  height: 100%;
+  width: 2.5em;
+  border: none;
+  background: none;
+  color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  opacity: 0;
+  z-index: 100;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+  -webkit-transform: translateX(-20%);
+  transform: translateX(-20%);
+  pointer-events: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.next:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.next::after {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "\e600";
+  text-transform: none;
+  font-size: 1.5em;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-family: 'icomoon';
+  line-height: 1;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.next.show {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  pointer-events: auto;
+}
+
+/* Progress bar */
+.simform .progress {
+  width: 0%;
+  height: 0.15em;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+.simform .progress::before {
+  position: absolute;
+  top: auto;
+  width: 100%;
+  height: inherit;
+  background: rgba(255, 255, 255, 0.05);
+  content: '';
+}
+
+/* Number indicator */
+.simform .number-wrapper {
+  position: relative;
+  float: left;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 2em;
+  text-transform: uppercase;
+}
+
+.simform .number {
+  display: block;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  overflow: hidden;
+  margin: 0 0 0 0.1em;
+  width: 2em;
+}
+
+.simform .number:after {
+  position: absolute;
+  left: 50%;
+  content: '/';
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.ie9 .simform .number:after {
+  left: 36%;
+}
+
+.simform .number span {
+  float: right;
+  width: 40%;
+  text-align: center;
+}
+
+.simform .number .number-current {
+  float: left;
+}
+
+.simform .number-next {
+  position: absolute;
+  left: 0;
+}
+
+.simform.show-next .number-current {
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.simform.show-next .number-next {
+  -webkit-animation: moveUpFromDown 0.4s both;
+  animation: moveUpFromDown 0.4s both;
+}
+
+/* Error and final message */
+.simform .error-message {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+
+.simform .error-message {
+  font-family: 'Merriweather',serif;
+  padding: 0.4em 3.5em 0 0;
+  width: 100%;
+  color: #fff;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  left: 0;
+  bottom: -3.5em;
+}
+
+.simform .final-message {
+  opacity: 0;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+
+.final-message {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.final-message.thx {
+  opacity: 1;
+}
+
+.error-message.show,
+.final-message.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.final-message.show {
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+
+/* Final hiding of form / showing message */
+.simform-inner.hide {
+  display: none;
+  -webkit-transition: opacity 0.3s, visibility 0s 0.3s;
+  transition: opacity 0.3s, visibility 0s 0.3s;
+}
+
+/* No JS Fallback */
+.no-js .simform {
+  font-size: 1.75em;
+}
+
+.no-js .questions li {
+  padding: 0 0 2em;
+}
+
+.no-js .simform .submit {
+  display: block;
+  float: right;
+  padding: 10px 20px;
+  border: none;
+  background: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.no-js .simform .controls {
+  display: none;
+}
+
+/* Remove IE clear cross */
+input[type=text]::-ms-clear {
+  display: none;
+}
+
+/* Adjust form for smaller screens */
+@media screen and (max-width: 44.75em) {
+  .simform {
+    font-size: 1.8em;
+  }
+}
+@media screen and (max-width: 33.5625em) {
+  .simform {
+    font-size: 1.2em;
+  }
+}
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+body {
+  min-height: 0 !important;
+  /* temp */
+  min-width: 760px;
+  -webkit-transition: background 1s linear;
+  -moz-transition: background 1s linear;
+  -o-transition: background 1s linear;
+  transition: background 1s linear;
+  -webkit-text-size-adjust: none;
+  background: #2eaed5;
+}
+
+
+
+body.section-2 {
+  background: #2474cb;
+}
+body.section-3 {
+  background: #005179;
+}
+body.section-4 {
+  background: #0d1932;
+}
+body.section-5 {
+  background: #202d4e;
+}
+body.section-6 {
+  background: #4a202b;
+}
+body.section-7 {
+  background: #062020;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Montserrat', serif;
+  font-size: 11px;
+  line-height: 22px;
+  color: #fff;
+}
+
+a img {
+  display: block;
+  border: 0;
+}
+a:active, a:focus {
+  outline: none;
+}
+
+.container {
+  width: 842px;
+  height: 595px;
+  margin: 0 auto;
+  padding: 0;
+  left: 50%;
+  top: 50%;
+  margin: -297px 0 0 -421px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+
+.page-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -2;
+  opacity: 0;
+}
+.no-csstransitions .page-background {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.page-background.bg-secondary {
+  -webkit-transition: opacity 1s ease;
+  -moz-transition: opacity 1s ease;
+  -o-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+  z-index: -1;
+}
+.no-csstransitions .page-background.bg-secondary {
+  opacity: 0;
+}
+.page-background.active {
+  opacity: 1;
+}
+.page-background.active:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url("../img/noise.png") 0 0;
+}
+.page-background.section-1 {
+  background-image: -webkit-gradient(radial, circle, 0, circle, 100, color-stop(0%, #6bd3e4), color-stop(100%, #2eaed5));
+  background-image: -webkit-radial-gradient(circle, #6bd3e4, #2eaed5);
+  background-image: -moz-radial-gradient(circle, #6bd3e4, #2eaed5);
+  background-image: -o-radial-gradient(circle, #6bd3e4, #2eaed5);
+  background-image: radial-gradient(circle, #6bd3e4, #2eaed5);
+}
+.no-csstransitions .page-background.section-1 {
+  background-image: url("../img/section-1-gradient.jpg");
+}
+.page-background.section-2 {
+  background-image: -webkit-gradient(radial, circle, 0, circle, 100, color-stop(0%, #59c7e1), color-stop(100%, #2474cb));
+  background-image: -webkit-radial-gradient(circle, #59c7e1, #2474cb);
+  background-image: -moz-radial-gradient(circle, #59c7e1, #2474cb);
+  background-image: -o-radial-gradient(circle, #59c7e1, #2474cb);
+  background: radial-gradient(circle, #555555, black);
+}
+.no-csstransitions .page-background.section-2 {
+  background-image: url("../img/section-2-gradient.jpg");
+}
+.page-background.section-3 {
+  background-image: -webkit-gradient(radial, circle, 0, circle, 100, color-stop(0%, #01a38c), color-stop(100%, #005179));
+  background-image: -webkit-radial-gradient(circle, #01a38c, #005179);
+  background-image: -moz-radial-gradient(circle, #01a38c, #005179);
+  background-image: -o-radial-gradient(circle, #01a38c, #005179);
+  background-image: radial-gradient(circle, #01a38c, #005179);
+}
+.no-csstransitions .page-background.section-3 {
+  background-image: url("../img/section-3-gradient.jpg");
+}
+.page-background.section-4 {
+  background-image: -webkit-gradient(radial, circle, 0, circle, 100, color-stop(0%, #102d63), color-stop(100%, #0d1932));
+  background-image: -webkit-radial-gradient(circle, #102d63, #0d1932);
+  background-image: -moz-radial-gradient(circle, #102d63, #0d1932);
+  background-image: -o-radial-gradient(circle, #102d63, #0d1932);
+  background-image: radial-gradient(circle, #102d63, #0d1932);
+}
+.no-csstransitions .page-background.section-4 {
+  background-image: url("../img/section-4-gradient.jpg");
+}
+.page-background.section-5 {
+  background-image: -webkit-gradient(radial, circle, 0, circle, 100, color-stop(0%, #415b5b), color-stop(100%, #202d4e));
+  background-image: -webkit-radial-gradient(circle, #415b5b, #202d4e);
+  background-image: -moz-radial-gradient(circle, #415b5b, #202d4e);
+  background-image: -o-radial-gradient(circle, #415b5b, #202d4e);
+  background-image: radial-gradient(circle, #415b5b, #202d4e);
+}
+.no-csstransitions .page-background.section-5 {
+  background-image: url("../img/section-5-gradient.jpg");
+}
+.page-background.section-6 {
+  background-image: -webkit-gradient(radial, circle, 0, circle, 100, color-stop(0%, #754142), color-stop(100%, #4a202b));
+  background-image: -webkit-radial-gradient(circle, #754142, #4a202b);
+  background-image: -moz-radial-gradient(circle, #754142, #4a202b);
+  background-image: -o-radial-gradient(circle, #754142, #4a202b);
+  background-image: radial-gradient(circle, #754142, #4a202b);
+}
+.no-csstransitions .page-background.section-6 {
+  background-image: url("../img/section-6-gradient.jpg");
+}
+.page-background.section-7 {
+  background-image: -webkit-gradient(radial, circle, 0, circle, 100, color-stop(0%, #0f514f), color-stop(100%, #062020));
+  background-image: -webkit-radial-gradient(circle, #0f514f, #062020);
+  background-image: -moz-radial-gradient(circle, #0f514f, #062020);
+  background-image: -o-radial-gradient(circle, #0f514f, #062020);
+  background-image: radial-gradient(circle, #0f514f, #062020);
+}
+.no-csstransitions .page-background.section-7 {
+  background-image: url("../img/section-7-gradient.jpg");
+}
+
+#page {
+  height: 100%;
+}
+
+header, footer, #nav {
+  position: absolute;
+}
+
+header {
+  top: 35px;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  line-height: 0;
+  font-size: 0;
+}
+header .logo {
+  display: inline-block;
+  -webkit-transition: opacity 1s ease;
+  -moz-transition: opacity 1s ease;
+  -o-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+}
+header .logo img {
+  width: 144px;
+  height: 25px;
+}
+header .logo.dark {
+  opacity: 1;
+  position: absolute;
+  left: 50%;
+  margin-left: -72px;
+}
+header .logo.light {
+  opacity: 0;
+}
+.section-3 header .logo.light, .section-4 header .logo.light, .section-5 header .logo.light, .section-6 header .logo.light, .section-7 header .logo.light {
+  opacity: 1;
+}
+.section-3 header .logo.dark, .section-4 header .logo.dark, .section-5 header .logo.dark, .section-6 header .logo.dark, .section-7 header .logo.dark {
+  opacity: 0;
+}
+
+footer {
+  bottom: 23px;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  font-size: 0;
+  line-height: 0;
+}
+footer .icon, footer .logo {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  text-indent: -1000em;
+  overflow: hidden;
+  margin: 0 5px;
+  background-size: 100% 100% !important;
+  vertical-align: middle;
+}
+footer .icon.icon-facebook, footer .logo.icon-facebook {
+  background: url("../img/icon-facebook.png") no-repeat 0 0;
+}
+footer .icon.icon-twitter, footer .logo.icon-twitter {
+  background: url("../img/icon-twitter.png") no-repeat 0 0;
+}
+footer .icon.icon-linked-in, footer .logo.icon-linked-in {
+  background: url("../img/icon-linked-in.png") no-repeat 0 0;
+}
+footer .logo.logo-ruche {
+  width: 100px;
+  height: 16px;
+  background: url("../img/logo-ruche-pollen.png") no-repeat 0 0;
+  margin-right: 20px;
+}
+footer .logo.logo-kisskiss {
+  width: 109px;
+  height: 31px;
+  background: url("../img/logo-kisskiss.png") no-repeat 0 0;
+  margin-left: 12px;
+}
+
+#nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 100;
+  right: 35px;
+  top: 50%;
+  margin-top: -83px;
+}
+#nav:before, #nav:after {
+  content: " ";
+  display: table;
+}
+#nav:after {
+  clear: both;
+}
+#nav > li {
+  display: block;
+}
+#nav a {
+  display: block;
+  width: 11px;
+  height: 11px;
+  margin: 11px 0;
+  border: 1px solid #fff;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#nav .active a {
+  background: #fff;
+}
+.section-2 #nav .active a {
+  background: #ffda00;
+  border-color: #ffda00;
+}
+.section-1 #nav .active a {
+  background: #5e5e5e;
+  border-color: #5e5e5e;
+}
+
+.section-wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+section {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  overflow: hidden;
+}
+section h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+  font-style: italic;
+  line-height: 1.4;
+  color: #fff;
+  margin: 0;
+}
+section h1 > span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  display: block;
+  margin: 3px 0px 0px -5px;
+}
+section h1 > span span {
+  font-size: inherit !important;
+}
+section h1 > span b {
+  display: inline-block;
+  font-weight: normal;
+  opacity: 0;
+}
+section h1 > span b.trigger {
+  animation-name: animate-text;
+  -webkit-animation-name: animate-text;
+  -moz-animation-name: animate-text;
+  -o-animation-name: animate-text;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -o-animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(0.3, 2, 0.35, 1.45);
+  -webkit-animation-timing-function: cubic-bezier(0.3, 2, 0.35, 1.45);
+  -moz-animation-timing-function: cubic-bezier(0.3, 2, 0.35, 1.45);
+  -o-animation-timing-function: cubic-bezier(0.3, 2, 0.35, 1.45);
+  opacity: 1;
+}
+.no-csstransitions section h1 > span b {
+  opacity: 1;
+}
+section h1 > span em {
+  font-style: normal;
+  font-weight: 700;
+  display: inline;
+  white-space: nowrap;
+}
+section h1 > span em b {
+  font-weight: 700;
+}
+section h1 > span i {
+  font-style: normal;
+  white-space: nowrap;
+}
+section p {
+  margin: 1.18em 0;
+  padding-left: 1.82em;
+  line-height: 1.25em;
+}
+section ul {
+  margin-top: 0;
+  line-height: 1.2em;
+  list-style: none;
+  padding: 0 0 0 2.5em;
+}
+section ul li {
+  margin: 0;
+  position: relative;
+  padding-left: 0.7em;
+}
+section ul li:before {
+  content: '-';
+  position: absolute;
+  left: 0;
+}
+section.active {
+  top: 0;
+}
+section .background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-size: contain !important;
+  z-index: 0;
+}
+section .background > div {
+  position: absolute;
+  background-size: contain !important;
+}
+.no-csstransitions section .background > div {
+  opacity: 1 !important;
+}
+section .content {
+  position: relative;
+  z-index: 1;
+}
+
+/* ======================================= ALL ABOUT SECTION 1 ==================================== */
+
+#section-1 .content {
+  left: 17.5%;
+  top: 27.3%;
+}
+#section-1 h1 span {
+  color: #2c4766;
+}
+#section-1 p {
+  line-height: 1.27em;
+  margin: 0.8em 0;
+  color: #194959;
+}
+#section-1 .btn-scroll {
+  display: block;
+  width: 5.8%;
+  height: 10%;
+  background: url("../img/up2.svg") no-repeat 0 0;
+  background-size: contain;
+  right: 0.5%;
+  top: 70%;
+  position: absolute;
+  z-index: 5;
+  animation-name: section-1-arrow;
+  -webkit-animation-name: section-1-arrow;
+  -moz-animation-name: section-1-arrow;
+  -o-animation-name: section-1-arrow;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  -webkit-transform-origin: 50% 50% 50%;
+  -moz-transform-origin: 50% 50% 50%;
+  -ms-transform-origin: 50% 50% 50%;
+  -o-transform-origin: 50% 50% 50%;
+  transform-origin: 50% 50% 50%;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+#section-1 .background {
+  background: url("../img/section-1-bg.png") no-repeat 0 0;
+}
+#section-1 .background .btn-scroll {
+  display: none;
+}
+#section-1 .background .item-rocket {
+  width: 10.2%;
+  height: 31.6%;
+  background: url("../img/section-1-rocket.png") no-repeat 0 0;
+  bottom: 28%;
+  right: 24.2%;
+}
+#section-1 .background .item-smoke-1 {
+  width: 27.2%;
+  height: 17.8%;
+  background: url("../img/section-1-smoke-1.png") no-repeat 0 0;
+  bottom: 25.2%;
+  right: 16.5%;
+}
+#section-1 .background .item-smoke-2 {
+  width: 8.5%;
+  height: 6%;
+  background: url("../img/section-1-smoke-2.png") no-repeat 0 0;
+  bottom: 25.2%;
+  right: 26%;
+  opacity: 1;
+}
+#section-1 .background .item-cloud-1, #section-1 .background .item-cloud-2, #section-1 .background .item-cloud-3, #section-1 .background .item-cloud-4, #section-1 .background .item-cloud-5, #section-1 .background .item-cloud-6 {
+  opacity: 0;
+}
+.no-csstransitions #section-1 .background .item-cloud-1, .no-csstransitions #section-1 .background .item-cloud-2, .no-csstransitions #section-1 .background .item-cloud-3, .no-csstransitions #section-1 .background .item-cloud-4, .no-csstransitions #section-1 .background .item-cloud-5, .no-csstransitions #section-1 .background .item-cloud-6 {
+  opacity: 1;
+}
+#section-1 .background .item-cloud-1 {
+  width: 9.1%;
+  height: 7.4%;
+  background: url("../img/section-1-cloud-1.png") no-repeat 0 0;
+  left: 19.6%;
+  top: 14.7%;
+}
+#section-1 .background .item-cloud-2 {
+  width: 7.1%;
+  height: 6.8%;
+  background: url("../img/section-1-cloud-2.png") no-repeat 0 0;
+  left: 39.8%;
+  top: 14.8%;
+}
+#section-1 .background .item-cloud-3 {
+  width: 7.6%;
+  height: 6.4%;
+  background: url("../img/section-1-cloud-3.png") no-repeat 0 0;
+  left: 50.6%;
+  top: 21.5%;
+}
+#section-1 .background .item-cloud-4 {
+  width: 4.9%;
+  height: 3.7%;
+  background: url("../img/section-1-cloud-4.png") no-repeat 0 0;
+  left: 53.8%;
+  top: 14.5%;
+}
+#section-1 .background .item-cloud-5 {
+  width: 4.9%;
+  height: 3.8%;
+  background: url("../img/section-1-cloud-5.png") no-repeat 0 0;
+  left: 65.6%;
+  top: 20.4%;
+}
+#section-1 .background .item-cloud-6 {
+  width: 6.6%;
+  height: 5.1%;
+  background: url("../img/section-1-cloud-6.png") no-repeat 0 0;
+  left: 72.7%;
+  top: 14.8%;
+}
+#section-1.trigger .background .item-rocket {
+  animation-name: section-1-rocket-shake;
+  -webkit-animation-name: section-1-rocket-shake;
+  -moz-animation-name: section-1-rocket-shake;
+  -o-animation-name: section-1-rocket-shake;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -o-animation-duration: 1.5s;
+  -webkit-transform-origin: 50% 50% 50%;
+  -moz-transform-origin: 50% 50% 50%;
+  -ms-transform-origin: 50% 50% 50%;
+  -o-transform-origin: 50% 50% 50%;
+  transform-origin: 50% 50% 50%;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+#section-1.trigger .background .item-smoke-1 {
+  animation-name: section-1-smoke-1;
+  -webkit-animation-name: section-1-smoke-1;
+  -moz-animation-name: section-1-smoke-1;
+  -o-animation-name: section-1-smoke-1;
+  animation-duration: 6s;
+  -webkit-animation-duration: 6s;
+  -moz-animation-duration: 6s;
+  -o-animation-duration: 6s;
+  -webkit-transform-origin: 50% 50% 50%;
+  -moz-transform-origin: 50% 50% 50%;
+  -ms-transform-origin: 50% 50% 50%;
+  -o-transform-origin: 50% 50% 50%;
+  transform-origin: 50% 50% 50%;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+#section-1.trigger .background .item-smoke-2 {
+  animation-name: section-1-smoke-2;
+  -webkit-animation-name: section-1-smoke-2;
+  -moz-animation-name: section-1-smoke-2;
+  -o-animation-name: section-1-smoke-2;
+  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  -moz-animation-duration: 4s;
+  -o-animation-duration: 4s;
+  -webkit-transform-origin: 50% 50% 50%;
+  -moz-transform-origin: 50% 50% 50%;
+  -ms-transform-origin: 50% 50% 50%;
+  -o-transform-origin: 50% 50% 50%;
+  transform-origin: 50% 50% 50%;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+#section-1.trigger .background .item-cloud-1, #section-1.trigger .background .item-cloud-2, #section-1.trigger .background .item-cloud-3, #section-1.trigger .background .item-cloud-4, #section-1.trigger .background .item-cloud-5, #section-1.trigger .background .item-cloud-6 {
+  animation-name: section-1-cloud;
+  -webkit-animation-name: section-1-cloud;
+  -moz-animation-name: section-1-cloud;
+  -o-animation-name: section-1-cloud;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+#section-1.trigger .background .item-cloud-1 {
+  animation-duration: 64s;
+  -webkit-animation-duration: 64s;
+  -moz-animation-duration: 64s;
+  -o-animation-duration: 64s;
+}
+#section-1.trigger .background .item-cloud-2 {
+  animation-duration: 60s;
+  -webkit-animation-duration: 60s;
+  -moz-animation-duration: 60s;
+  -o-animation-duration: 60s;
+}
+#section-1.trigger .background .item-cloud-3 {
+  animation-duration: 68s;
+  -webkit-animation-duration: 68s;
+  -moz-animation-duration: 68s;
+  -o-animation-duration: 68s;
+}
+#section-1.trigger .background .item-cloud-4 {
+  animation-duration: 57s;
+  -webkit-animation-duration: 57s;
+  -moz-animation-duration: 57s;
+  -o-animation-duration: 57s;
+}
+#section-1.trigger .background .item-cloud-5 {
+  animation-duration: 62s;
+  -webkit-animation-duration: 62s;
+  -moz-animation-duration: 62s;
+  -o-animation-duration: 62s;
+}
+#section-1.trigger .background .item-cloud-6 {
+  animation-duration: 55s;
+  -webkit-animation-duration: 55s;
+  -moz-animation-duration: 55s;
+  -o-animation-duration: 55s;
+}
+#section-1.transition .background {
+  z-index: 1000;
+}
+#section-1.transition .background .item-smoke-2 {
+  position: fixed;
+  bottom: 28.2%;
+  right: 29%;
+  z-index: 1000;
+  opacity: 0;
+  animation-name: section-1-smoke-2-transition;
+  -webkit-animation-name: section-1-smoke-2-transition;
+  -moz-animation-name: section-1-smoke-2-transition;
+  -o-animation-name: section-1-smoke-2-transition;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -o-animation-duration: 1.5s;
+  -webkit-transform-origin: 50% 50% 50%;
+  -moz-transform-origin: 50% 50% 50%;
+  -ms-transform-origin: 50% 50% 50%;
+  -o-transform-origin: 50% 50% 50%;
+  transform-origin: 50% 50% 50%;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -o-animation-iteration-count: 1;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
+  -o-animation-timing-function: ease;
+}
+
+
+/* ======================================= ALL ABOUT SECTION 2 ==================================== 
+
+
+
+#section-2 .content {
+  left: 17.3%;
+  top: 43.5%;
+}
+#section-2 h1 {
+  margin-bottom: 1em;
+}
+#section-2 h1 > span {
+  margin: -2px 0 0 -1px;
+}
+#section-2 h1 span {
+  color: #2c4766;
+}
+#section-2 .background .item-bg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url("../img/section-2-bg.png") no-repeat 0 0;
+  background-size: contain;
+  z-index: 1;
+  position: relative;
+}
+#section-2 .background .item-rocket {
+  width: 6.3%;
+  height: 23.5%;
+  background: url("../img/section-2-rocket.png") no-repeat 0 0;
+  bottom: 40%;
+  right: 23.8%;
+  z-index: 2;
+  opacity: 0;
+}
+#section-2 .background .item-baloon {
+  width: 12.6%;
+  height: 26.3%;
+  background: url("../img/section-2-baloon.png") no-repeat 0 0;
+  left: 21%;
+  top: 11.5%;
+  z-index: 0;
+}
+#section-2.trigger .background .item-rocket {
+  animation-name: section-2-rocket;
+  -webkit-animation-name: section-2-rocket;
+  -moz-animation-name: section-2-rocket;
+  -o-animation-name: section-2-rocket;
+  animation-duration: 10s;
+  -webkit-animation-duration: 10s;
+  -moz-animation-duration: 10s;
+  -o-animation-duration: 10s;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -o-animation-iteration-count: 1;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+#section-2.trigger .background .item-baloon {
+  animation-name: section-2-baloon;
+  -webkit-animation-name: section-2-baloon;
+  -moz-animation-name: section-2-baloon;
+  -o-animation-name: section-2-baloon;
+  animation-duration: 5s;
+  -webkit-animation-duration: 5s;
+  -moz-animation-duration: 5s;
+  -o-animation-duration: 5s;
+  -webkit-transform-origin: 50% 50% 50%;
+  -moz-transform-origin: 50% 50% 50%;
+  -ms-transform-origin: 50% 50% 50%;
+  -o-transform-origin: 50% 50% 50%;
+  transform-origin: 50% 50% 50%;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+
+
+/* ======================================= ALL ABOUT SECTION 3 ==================================== */
+
+
+#section-3 .content {
+  left: 43%;
+  top: 45%;
+}
+#section-3 h1 {
+  margin-bottom: -3px;
+}
+#section-3 h1 > span {
+  margin: -2px 0 0 -1px;
+}
+#section-3 h1 span {
+  color: #4a4a4a;
+}
+#section-3 .background {
+  background: url("../img/section-3-bg.png") no-repeat 0 0;
+}
+#section-3 .background .item-wave-1 {
+  width: 11.3%;
+  height: 11.6%;
+  background: url("../img/section-3-wave-1.png") no-repeat 0 0;
+  left: 33.5%;
+  top: 31%;
+}
+#section-3 .background .item-wave-2 {
+  width: 16.7%;
+  height: 17%;
+  background: url("../img/section-3-wave-2.png") no-repeat 0 0;
+  left: 33%;
+  top: 22.5%;
+}
+#section-3 .background .item-wave-3 {
+  width: 20.6%;
+  height: 21.1%;
+  background: url("../img/section-3-wave-3.png") no-repeat 0 0;
+  left: 33%;
+  top: 14%;
+}
+#section-3.trigger .background .item-wave-1 {
+  animation-name: section-3-wave-1;
+  -webkit-animation-name: section-3-wave-1;
+  -moz-animation-name: section-3-wave-1;
+  -o-animation-name: section-3-wave-1;
+  animation-duration: 5s;
+  -webkit-animation-duration: 5s;
+  -moz-animation-duration: 5s;
+  -o-animation-duration: 5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+#section-3.trigger .background .item-wave-2 {
+  animation-name: section-3-wave-2;
+  -webkit-animation-name: section-3-wave-2;
+  -moz-animation-name: section-3-wave-2;
+  -o-animation-name: section-3-wave-2;
+  animation-duration: 5s;
+  -webkit-animation-duration: 5s;
+  -moz-animation-duration: 5s;
+  -o-animation-duration: 5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+#section-3.trigger .background .item-wave-3 {
+  animation-name: section-3-wave-3;
+  -webkit-animation-name: section-3-wave-3;
+  -moz-animation-name: section-3-wave-3;
+  -o-animation-name: section-3-wave-3;
+  animation-duration: 5s;
+  -webkit-animation-duration: 5s;
+  -moz-animation-duration: 5s;
+  -o-animation-duration: 5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+
+
+   /* ======================================= ALL ABOUT SECTION 4 ==================================== */
+
+
+#section-4 .content {
+  left: 17.8%;
+  top: 34%;
+}
+#section-4 h1 {
+  font-size: 19px;
+  margin-bottom: 1.15em;
+}
+#section-4 h1 > span {
+  margin: -1px 0 0 -2px;
+}
+#section-4 p {
+  padding-left: 2.5em;
+  margin: 1.1em 0;
+}
+#section-4 ul li:last-child {
+  padding-left: 0;
+}
+#section-4 ul li:last-child:before {
+  display: none;
+}
+#section-4 .background {
+  background: url("../img/section-4-bg.png") no-repeat 0 0;
+}
+#section-4 .background .item {
+  width: 35.2%;
+  height: 30.3%;
+  right: 13.5%;
+  top: 32.5%;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s linear;
+  -moz-transition: opacity 0.3s linear;
+  -o-transition: opacity 0.3s linear;
+  transition: opacity 0.3s linear;
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.no-csstransitions #section-4 .background .item {
+  opacity: 1;
+}
+#section-4 .background .item-stars-0 {
+  background: url("../img/section-4-stars.png") no-repeat 0 0;
+  opacity: 1;
+}
+#section-4 .background .item-stars-1 {
+  background: url("../img/section-4-stars-1.png") no-repeat 0 0;
+}
+#section-4 .background .item-stars-2 {
+  background: url("../img/section-4-stars-2.png") no-repeat 0 0;
+}
+#section-4 .background .item-stars-3 {
+  background: url("../img/section-4-stars-3.png") no-repeat 0 0;
+}
+#section-4 .background .item-stars-4 {
+  background: url("../img/section-4-stars-4.png") no-repeat 0 0;
+}
+#section-4 .background .item-stars-5 {
+  background: url("../img/section-4-stars-5.png") no-repeat 0 0;
+}
+#section-4 .background .item-stars-6 {
+  background: url("../img/section-4-stars-6.png") no-repeat 0 0;
+}
+#section-4 .background .item-stars-7 {
+  background: url("../img/section-4-stars-7.png") no-repeat 0 0;
+}
+#section-4.trigger .background .item {
+  opacity: 1;
+}
+#section-4.trigger .background .item.item-stars-1 {
+  -webkit-transition-delay: 0.5s;
+  -moz-transition-delay: 0.5s;
+  -o-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+#section-4.trigger .background .item.item-stars-2 {
+  -webkit-transition-delay: 1s;
+  -moz-transition-delay: 1s;
+  -o-transition-delay: 1s;
+  transition-delay: 1s;
+}
+#section-4.trigger .background .item.item-stars-3 {
+  -webkit-transition-delay: 1.5s;
+  -moz-transition-delay: 1.5s;
+  -o-transition-delay: 1.5s;
+  transition-delay: 1.5s;
+}
+#section-4.trigger .background .item.item-stars-4 {
+  -webkit-transition-delay: 2s;
+  -moz-transition-delay: 2s;
+  -o-transition-delay: 2s;
+  transition-delay: 2s;
+}
+#section-4.trigger .background .item.item-stars-5 {
+  -webkit-transition-delay: 2.5s;
+  -moz-transition-delay: 2.5s;
+  -o-transition-delay: 2.5s;
+  transition-delay: 2.5s;
+}
+#section-4.trigger .background .item.item-stars-6 {
+  -webkit-transition-delay: 3s;
+  -moz-transition-delay: 3s;
+  -o-transition-delay: 3s;
+  transition-delay: 3s;
+}
+#section-4.trigger .background .item.item-stars-7 {
+  -webkit-transition-delay: 3.5s;
+  -moz-transition-delay: 3.5s;
+  -o-transition-delay: 3.5s;
+  transition-delay: 3.5s;
+}
+
+/* ======================================= ALL ABOUT SECTION 5 ==================================== */
+
+
+
+#section-5 .content {
+  left: 56.5%;
+  top: 31%;
+}
+#section-5 h1 > span {
+  line-height: 0.94em;
+  margin: 0.1em 0 0.58em;
+}
+#section-5 p {
+  padding-left: 2em;
+}
+#section-5 .background {
+  background: url("../img/section-5-bg.png") no-repeat 0 0;
+}
+#section-5 .background .item-star-1 {
+  width: 1.2%;
+  height: 1.8%;
+  left: 28%;
+  top: 28%;
+  background: url("../img/section-5-star-1.png") no-repeat 0 0;
+}
+#section-5 .background .item-star-2 {
+  width: 1.70%;
+  height: 2.4%;
+  left: 11.3%;
+  top: 59.4%;
+  background: url("../img/section-5-star-2.png") no-repeat 0 0;
+}
+#section-5 .background .item-star-3 {
+  width: 2.4%;
+  height: 3.4%;
+  left: 27.2%;
+  top: 16.5%;
+  background: url("../img/section-5-star-3.png") no-repeat 0 0;
+}
+#section-5 .background .item-star-4 {
+  width: 1.2%;
+  height: 1.7%;
+  left: 76.5%;
+  top: 74.8%;
+  background: url("../img/section-5-star-4.png") no-repeat 0 0;
+}
+#section-5 .background .item-star-5 {
+  width: 1.9%;
+  height: 2.7%;
+  left: 46%;
+  top: 77%;
+  background: url("../img/section-5-star-5.png") no-repeat 0 0;
+}
+#section-5 .background .item-star-6 {
+  width: 3.5%;
+  height: 5%;
+  left: 82.7%;
+  top: 27%;
+  background: url("../img/section-5-star-6.png") no-repeat 0 0;
+}
+#section-5 .background .item-smoke-1 {
+  width: 2.6%;
+  height: 4.8%;
+  left: 48%;
+  top: 38%;
+  background: url("../img/section-5-smoke-1.png") no-repeat 0 0;
+}
+#section-5 .background .item-smoke-2 {
+  width: 4.7%;
+  height: 10.1%;
+  left: 48%;
+  top: 32%;
+  background: url("../img/section-5-smoke-2.png") no-repeat 0 0;
+}
+#section-5 .background .item-man {
+  width: 5.5%;
+  height: 19.6%;
+  left: 25.5%;
+  top: 30%;
+  background: url("../img/section-5-man.png") no-repeat 0 0;
+}
+#section-5 .background .item-hand {
+  width: 5%;
+  height: 8%;
+  left: 22.5%;
+  top: 29.5%;
+  background: url("../img/section-5-hand.png") no-repeat 0 0;
+}
+
+#section-5 .btn-scroll {
+  display: block;
+  width: 5.8%;
+  height: 10%;
+  background: url("../img/up2.svg") no-repeat 0 0;
+  background-size: contain;
+  right: 0.5%;
+  top: 70%;
+  position: absolute;
+  z-index: 5;
+  animation-name: section-1-arrow;
+  -webkit-animation-name: section-1-arrow;
+  -moz-animation-name: section-1-arrow;
+  -o-animation-name: section-1-arrow;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  -webkit-transform-origin: 50% 50% 50%;
+  -moz-transform-origin: 50% 50% 50%;
+  -ms-transform-origin: 50% 50% 50%;
+  -o-transform-origin: 50% 50% 50%;
+  transform-origin: 50% 50% 50%;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+
+#section-5.trigger .background .item-star-1, #section-5.trigger .background .item-star-2, #section-5.trigger .background .item-star-3, #section-5.trigger .background .item-star-4, #section-5.trigger .background .item-star-5 {
+  animation-name: section-5-star;
+  -webkit-animation-name: section-5-star;
+  -moz-animation-name: section-5-star;
+  -o-animation-name: section-5-star;
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  -webkit-transform-origin: 50% 50% 50%;
+  -moz-transform-origin: 50% 50% 50%;
+  -ms-transform-origin: 50% 50% 50%;
+  -o-transform-origin: 50% 50% 50%;
+  transform-origin: 50% 50% 50%;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+#section-5.trigger .background .item-star-6 {
+  animation-name: section-5-star-big;
+  -webkit-animation-name: section-5-star-big;
+  -moz-animation-name: section-5-star-big;
+  -o-animation-name: section-5-star-big;
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  -webkit-transform-origin: 50% 50% 50%;
+  -moz-transform-origin: 50% 50% 50%;
+  -ms-transform-origin: 50% 50% 50%;
+  -o-transform-origin: 50% 50% 50%;
+  transform-origin: 50% 50% 50%;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+#section-5.trigger .background .item-star-2 {
+  animation-delay: 0.6s;
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  -o-animation-delay: 0.6s;
+}
+#section-5.trigger .background .item-star-3 {
+  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  -o-animation-delay: 0.4s;
+}
+#section-5.trigger .background .item-star-4 {
+  animation-delay: 0.8s;
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  -o-animation-delay: 0.8s;
+}
+#section-5.trigger .background .item-star-5 {
+  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -o-animation-delay: 0.2s;
+}
+#section-5.trigger .background .item-smoke-1 {
+  animation-name: section-1-smoke-1;
+  -webkit-animation-name: section-1-smoke-1;
+  -moz-animation-name: section-1-smoke-1;
+  -o-animation-name: section-1-smoke-1;
+  animation-duration: 6s;
+  -webkit-animation-duration: 6s;
+  -moz-animation-duration: 6s;
+  -o-animation-duration: 6s;
+  -webkit-transform-origin: 50% 50% 50%;
+  -moz-transform-origin: 50% 50% 50%;
+  -ms-transform-origin: 50% 50% 50%;
+  -o-transform-origin: 50% 50% 50%;
+  transform-origin: 50% 50% 50%;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+#section-5.trigger .background .item-smoke-2 {
+  animation-name: section-1-smoke-2;
+  -webkit-animation-name: section-1-smoke-2;
+  -moz-animation-name: section-1-smoke-2;
+  -o-animation-name: section-1-smoke-2;
+  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  -moz-animation-duration: 4s;
+  -o-animation-duration: 4s;
+  -webkit-transform-origin: 50% 50% 50%;
+  -moz-transform-origin: 50% 50% 50%;
+  -ms-transform-origin: 50% 50% 50%;
+  -o-transform-origin: 50% 50% 50%;
+  transform-origin: 50% 50% 50%;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+#section-5.trigger .background .item-hand {
+  animation-name: section-5-hand;
+  -webkit-animation-name: section-5-hand;
+  -moz-animation-name: section-5-hand;
+  -o-animation-name: section-5-hand;
+  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  -moz-animation-duration: 4s;
+  -o-animation-duration: 4s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  -webkit-transform-origin: 80% 60% 0;
+  -moz-transform-origin: 80% 60% 0;
+  -ms-transform-origin: 80% 60% 0;
+  -o-transform-origin: 80% 60% 0;
+  transform-origin: 80% 60% 0;
+}
+
+/* ======================================= ALL ABOUT SECTION 6 ==================================== */
+
+
+
+#section-6 .content {
+  left: 17%;
+  top: 32%;
+}
+#section-6 h1 span {
+  color: #fbd877;
+}
+#section-6 h1 > span {
+  margin: 0 0 0.44em;
+}
+#section-6 p {
+  padding-left: 1.4em;
+  margin-bottom: 0;
+}
+#section-6 ul {
+  padding-left: 1.2em;
+}
+#section-6 .background {
+  background: url("../img/section-6-bg.png") no-repeat 0 0;
+}
+#section-6 .background .item-meteor-1 {
+  width: 14.4%;
+  height: 21%;
+  background: url("../img/section-6-meteor-1.png") no-repeat 0 0;
+  left: 51.5%;
+  top: 25%;
+}
+#section-6 .background .item-meteor-2 {
+  width: 2.9%;
+  height: 3.8%;
+  background: url("../img/section-6-meteor-2.png") no-repeat 0 0;
+  left: 75%;
+  top: 20.2%;
+}
+#section-6 .background .item-meteor-3 {
+  width: 5.6%;
+  height: 7.4%;
+  background: url("../img/section-6-meteor-3.png") no-repeat 0 0;
+  left: 78.6%;
+  top: 38.4%;
+}
+#section-6 .background .item-meteor-4 {
+  width: 8.4%;
+  height: 12.4%;
+  background: url("../img/section-6-meteor-4.png") no-repeat 0 0;
+  left: 77%;
+  top: 52%;
+}
+#section-6 .background .item-meteor-5 {
+  width: 2.2%;
+  height: 3.1%;
+  background: url("../img/section-6-meteor-5.png") no-repeat 0 0;
+  left: 65%;
+  top: 61%;
+}
+#section-6 .background .item-meteor-6 {
+  width: 10.7%;
+  height: 14.2%;
+  background: url("../img/section-6-meteor-6.png") no-repeat 0 0;
+  left: 55.5%;
+  top: 64%;
+}
+#section-6 .background .item-meteor-7 {
+  width: 1.7%;
+  height: 2.3%;
+  background: url("../img/section-6-meteor-7.png") no-repeat 0 0;
+  left: 77.5%;
+  top: 82%;
+}
+#section-6 .background .item-rocket {
+  width: 9.8%;
+  height: 30.3%;
+  background: url("../img/section-6-rocket.png") no-repeat 0 0;
+  left: 66.6%;
+  top: 30.6%;
+}
+#section-6 .background .item-fire {
+  width: 5.2%;
+  height: 8.7%;
+  background: url("../img/section-6-fire-1.png") no-repeat 0 0;
+  left: 69%;
+  top: 59%;
+}
+#section-6 .background .item-fire > span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: contain !important;
+  opacity: 0;
+}
+#section-6 .background .item-fire > span.fire-2 {
+  background-image: url("../img/section-6-fire-2.png");
+}
+#section-6 .background .item-fire > span.fire-3 {
+  background-image: url("../img/section-6-fire-3.png");
+}
+
+#section-6 .btn-scroll {
+  display: block;
+  width: 5.8%;
+  height: 10%;
+  background: url("../img/up2.svg") no-repeat 0 0;
+  background-size: contain;
+  right: 0.5%;
+  top: 70%;
+  position: absolute;
+  z-index: 5;
+  animation-name: section-1-arrow;
+  -webkit-animation-name: section-1-arrow;
+  -moz-animation-name: section-1-arrow;
+  -o-animation-name: section-1-arrow;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  -webkit-transform-origin: 50% 50% 50%;
+  -moz-transform-origin: 50% 50% 50%;
+  -ms-transform-origin: 50% 50% 50%;
+  -o-transform-origin: 50% 50% 50%;
+  transform-origin: 50% 50% 50%;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+
+
+#section-6.trigger .background .item-meteor-1 {
+  animation-name: section-6-meteor-1;
+  -webkit-animation-name: section-6-meteor-1;
+  -moz-animation-name: section-6-meteor-1;
+  -o-animation-name: section-6-meteor-1;
+  animation-duration: 10s;
+  -webkit-animation-duration: 10s;
+  -moz-animation-duration: 10s;
+  -o-animation-duration: 10s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+#section-6.trigger .background .item-meteor-2 {
+  animation-name: section-6-meteor-2;
+  -webkit-animation-name: section-6-meteor-2;
+  -moz-animation-name: section-6-meteor-2;
+  -o-animation-name: section-6-meteor-2;
+  animation-duration: 10s;
+  -webkit-animation-duration: 10s;
+  -moz-animation-duration: 10s;
+  -o-animation-duration: 10s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+#section-6.trigger .background .item-meteor-3 {
+  animation-name: section-6-meteor-3;
+  -webkit-animation-name: section-6-meteor-3;
+  -moz-animation-name: section-6-meteor-3;
+  -o-animation-name: section-6-meteor-3;
+  animation-duration: 10s;
+  -webkit-animation-duration: 10s;
+  -moz-animation-duration: 10s;
+  -o-animation-duration: 10s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+#section-6.trigger .background .item-meteor-4 {
+  animation-name: section-6-meteor-4;
+  -webkit-animation-name: section-6-meteor-4;
+  -moz-animation-name: section-6-meteor-4;
+  -o-animation-name: section-6-meteor-4;
+  animation-duration: 10s;
+  -webkit-animation-duration: 10s;
+  -moz-animation-duration: 10s;
+  -o-animation-duration: 10s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+#section-6.trigger .background .item-meteor-5 {
+  animation-name: section-6-meteor-5;
+  -webkit-animation-name: section-6-meteor-5;
+  -moz-animation-name: section-6-meteor-5;
+  -o-animation-name: section-6-meteor-5;
+  animation-duration: 10s;
+  -webkit-animation-duration: 10s;
+  -moz-animation-duration: 10s;
+  -o-animation-duration: 10s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+#section-6.trigger .background .item-meteor-6 {
+  animation-name: section-6-meteor-6;
+  -webkit-animation-name: section-6-meteor-6;
+  -moz-animation-name: section-6-meteor-6;
+  -o-animation-name: section-6-meteor-6;
+  animation-duration: 10s;
+  -webkit-animation-duration: 10s;
+  -moz-animation-duration: 10s;
+  -o-animation-duration: 10s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+#section-6.trigger .background .item-meteor-7 {
+  animation-name: section-6-meteor-7;
+  -webkit-animation-name: section-6-meteor-7;
+  -moz-animation-name: section-6-meteor-7;
+  -o-animation-name: section-6-meteor-7;
+  animation-duration: 8s;
+  -webkit-animation-duration: 8s;
+  -moz-animation-duration: 8s;
+  -o-animation-duration: 8s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+#section-6.trigger .background .item-rocket {
+  animation-name: section-6-rocket;
+  -webkit-animation-name: section-6-rocket;
+  -moz-animation-name: section-6-rocket;
+  -o-animation-name: section-6-rocket;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+#section-6.trigger .background .item-fire {
+  animation-name: section-6-fire;
+  -webkit-animation-name: section-6-fire;
+  -moz-animation-name: section-6-fire;
+  -o-animation-name: section-6-fire;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  -webkit-transform-origin: 50% 0% 0;
+  -moz-transform-origin: 50% 0% 0;
+  -ms-transform-origin: 50% 0% 0;
+  -o-transform-origin: 50% 0% 0;
+  transform-origin: 50% 0% 0;
+}
+#section-6.trigger .background .item-fire > span.fire-2 {
+  animation-name: section-6-fire-2;
+  -webkit-animation-name: section-6-fire-2;
+  -moz-animation-name: section-6-fire-2;
+  -o-animation-name: section-6-fire-2;
+  animation-duration: 0.5s;
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  -o-animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+#section-6.trigger .background .item-fire > span.fire-3 {
+  animation-name: section-6-fire-3;
+  -webkit-animation-name: section-6-fire-3;
+  -moz-animation-name: section-6-fire-3;
+  -o-animation-name: section-6-fire-3;
+  animation-duration: 0.5s;
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  -o-animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+
+/* ===================================== all about section 7 ================================ */
+
+#section-7 .content {
+  left: 46.5%;
+  top: 32.6%;
+}
+#section-7 h1 > span {
+  line-height: 1.13em;
+  margin: 1px 0 0 -2px;
+}
+#section-7 .background {
+ 
+}
+#section-7 .background .item.item-plane-1 {
+  width: 8.7%;
+  height: 7%;
+  left: 11%;
+  z-index: 5;
+  
+  background: url("../img/section-7-plane-1.png") no-repeat 0 0;
+}
+#section-7 .background .item.item-plane-2 {
+  width: 13.6%;
+  height: 11%;
+  left: 33%;
+  z-index: 5;
+  
+  background: url("../img/section-7-plane-2.png") no-repeat 0 0;
+}
+#section-7 .background .item.item-plane-3 {
+  width: 7.7%;
+  height: 6.2%;
+  left: 57.5%;
+  top: 250px;
+  
+  background: url("../img/section-7-plane-3.png") no-repeat 0 0;
+}
+#section-7.trigger .background .item {
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -o-animation-duration: 3s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+#section-7.trigger .background .item-plane-1 {
+  animation-name: section-7-plane-1;
+  -webkit-animation-name: section-7-plane-1;
+  -moz-animation-name: section-7-plane-1;
+  -o-animation-name: section-7-plane-1;
+}
+#section-7.trigger .background .item-plane-2 {
+  animation-name: section-7-plane-2;
+  -webkit-animation-name: section-7-plane-2;
+  -moz-animation-name: section-7-plane-2;
+  -o-animation-name: section-7-plane-2;
+}
+#section-7.trigger .background .item-plane-3 {
+  animation-name: section-7-plane-3;
+  -webkit-animation-name: section-7-plane-3;
+  -moz-animation-name: section-7-plane-3;
+  -o-animation-name: section-7-plane-3;
+}
+#section-7.send .background .item {
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -o-animation-duration: 3s;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -o-animation-iteration-count: 1;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  opacity: 0;
+}
+#section-7.send .background .item-plane-1 {
+  animation-name: section-7-plane-send-1;
+  -webkit-animation-name: section-7-plane-send-1;
+  -moz-animation-name: section-7-plane-send-1;
+  -o-animation-name: section-7-plane-send-1;
+}
+#section-7.send .background .item-plane-2 {
+  animation-name: section-7-plane-send-2;
+  -webkit-animation-name: section-7-plane-send-2;
+  -moz-animation-name: section-7-plane-send-2;
+  -o-animation-name: section-7-plane-send-2;
+}
+#section-7.send .background .item-plane-3 {
+  animation-name: section-7-plane-send-3;
+  -webkit-animation-name: section-7-plane-send-3;
+  -moz-animation-name: section-7-plane-send-3;
+  -o-animation-name: section-7-plane-send-3;
+}
+ 
+@media only screen and (min-width: 1340px) {
+  body {
+    min-width: 1300px;
+  }
+
+  header {
+    top: 35px;
+  }
+  header .logo img {
+    width: 260px;
+    height: 45px;
+  }
+  header .logo.dark {
+    margin-left: -130px;
+  }
+
+  footer {
+    bottom: 23px;
+  }
+  footer .icon, footer .logo {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+  }
+  footer .logo.logo-ruche {
+    width: 160px;
+    height: 26px;
+    background: url("../img/logo-ruche-pollen.png") no-repeat 0 0;
+    margin-right: 20px;
+  }
+  footer .logo.logo-kisskiss {
+    width: 174px;
+    height: 50px;
+    background: url("../img/logo-kisskiss.png") no-repeat 0 0;
+    margin-left: 12px;
+  }
+
+  #nav {
+    margin-top: -120px;
+  }
+  #nav a {
+    width: 16px;
+    height: 16px;
+    margin: 16px 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body {
+    min-width: 320px;
+  }
+
+  header {
+    top: 25px;
+  }
+
+  footer {
+    bottom: 20px;
+  }
+  footer .logo.logo-ruche {
+    margin-right: 10px;
+  }
+  footer .logo.logo-kisskiss {
+    margin-left: 10px;
+  }
+
+  #nav {
+    right: 20px;
+  }
+
+  .container {
+    padding: 60px 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+    left: auto !important;
+    top: auto !important;
+    margin: 0 !important;
+  }
+
+  .page-background {
+    margin-top: -75%;
+  }
+
+  section .background {
+    top: 0 !important;
+    margin-top: -40px !important;
+    position: relative;
+  }
+  section .content {
+    width: 60%;
+    min-width: 320px;
+    top: -50px !important;
+    left: 0 !important;
+    padding: 20px 40px 20px 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  section h1 > span {
+    white-space: nowrap;
+    margin-left: 0 !important;
+  }
+  section p, section ul {
+    padding-left: 1em !important;
+  }
+  section p br, section ul br {
+    display: none;
+  }
+
+  #section-1 .container > .btn-scroll {
+    display: none;
+  }
+  #section-1 .background .btn-scroll {
+    display: block;
+  }
+  #section-1 .content {
+    top: -20px !important;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 500px) {
+  section .background {
+    top: -25px !important;
+    margin-top: 0 !important;
+    position: absolute;
+  }
+  section .content {
+    width: 40%;
+    top: 0 !important;
+  }
+
+  #section-1 .content {
+    
+  }
+
+  #section-3 .content, #section-5 .content, #section-7 .content {
+    float: right;
+  }
+
+  #section-5 .content {
+    width: 48%;
+    min-width: 0;
+  }
+
+  #section-6 .content {
+    top: -10px !important;
+  }
+}
+
+

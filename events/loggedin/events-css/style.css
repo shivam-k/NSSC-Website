@@ -1,0 +1,213 @@
+body {
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+.container {
+	max-width: 100%;
+	width: 82%;
+	display: table;
+    margin: 0 auto;
+}
+
+.row {
+	display: inline-block;
+	margin: 50px 5.8%;
+}
+.col-sm-6 {
+	display: inline-block;
+}
+div.img {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 714px) {
+  .row {
+	display: block;
+	margin: 50px 5.8%;
+}
+  .col-sm-6 {
+	display: table;
+    margin: 0 auto;
+}
+
+}
+
+/* =========================== Style for models ============================== */
+
+.modal-event {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content-event {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close-event {
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-event:hover,
+.close-event:focus {
+    color: #01A3E8;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header-event {
+    padding: 12px 16px;
+    background-color: white;
+    color: #01A3E8;
+    text-align: center;
+}
+
+.modal-body-event {
+	padding: 2px 16px;
+    background-color:#44A7BC;
+    padding: 10px 40px 120px 40px;
+}
+
+.modal-footer-event {
+    padding: 2px 16px;
+    background-color: white;
+    color: white;
+}
+
+/* =================== styling lift off ==================== */
+.video-container {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.video {
+	max-width: 100%;
+	width: 60%;
+	height: 250px;
+	display: table;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+.modal-body-event h2 {
+  color: #013D57; 
+  margin: 10px 0;
+  font-size: 22px;
+}
+.modal-body-event h4 {
+  color: #013D57; 
+  margin: 6px 0;
+  font-size: 18px;
+}
+.modal-body-event p {
+  line-height: 25px;
+   margin-left: 50px;
+}
+.modal-body-event ol {
+  margin-left: 50px;
+}
+.modal-body-event ul {
+  margin-left: 50px;
+}
+.modal-body-event li {
+  text-align: left;
+  line-height: 25px;
+}
+.basics {
+	margin: 0 20px 0 20px;
+}
+.odd {
+    color: rgba(0,0,0,0.8);
+   background-color: white;
+   margin: 10px 0 10px 0; 
+   padding: 25px 20px 25px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.even {
+   color: rgba(0,0,0,0.8);
+  background-color: #CCC;
+  margin: 0px;
+  padding: 25px 20px 25px 20px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.for-deatils {
+   background-color: #CCC;
+  margin: 0px;
+  padding: 5px 15px 15px 15px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.for-details p {
+	color: red;
+}
+ .for-deatils .fa-facebook {
+  color: white;
+  border-radius: 20%;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #01A3E8;
+  margin-left: 50px;
+ }
+.for-deatils .fa-facebook:hover {
+  color: white;
+  border: 1px solid #01A3E8;
+  border: 1px solid white;
+  }
+#arena-img {
+	display: table;
+    margin: 0 auto;
+}
+#arena-img img {
+	width: 100%;
+	height: auto;
+}
+@media only screen and (max-width: 790px) {
+   .video {
+    width: 100%;
+    height: 300px;
+   }
+}
+
+@media only screen and (max-width: 484px) {
+   .modal-content-event {
+    width: 95%;
+   }
+   .modal-body-event {
+    background-color:#44A7BC;
+    padding: 10px 5px 120px 5px;
+}
+
+}

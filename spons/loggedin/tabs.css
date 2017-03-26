@@ -1,0 +1,641 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+body {
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   background-color: rgba(0,0,0,0.11)
+}
+.go-up img {
+  color: red;
+  font-size: 65px;
+  text-align: center;
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out;
+}
+#up {
+  position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    margin: 0px 12px 12px 0px;
+}
+#up .go-up img:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+#demopage 
+{
+    padding:50px 50px 50px 50px; 
+    max-width:100%;
+    width: 80%;    
+    margin:25px auto 50px auto; 
+    background-color: White;
+    border:1px solid #EEE; 
+    border-radius:2px; 
+    box-shadow:0 0 1px #CCC;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#demopage h1 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align:center;
+    font:34px ;
+    margin: 10px 0;
+}
+#demopage h2 {
+    margin:5px 0;
+    font:bold 20px Georgia;
+}
+
+.small {
+    font-size:small;
+}
+
+/* ================ Header of Tab =========================== 
+ul.rtabs
+{
+    text-align:left;     
+    font-size:0;
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+        
+ul.rtabs li
+{
+    margin:0;
+    margin-right:6px;
+    padding:0;
+    display:inline;
+}
+        
+ul.rtabs li a
+{
+    padding:0 16px;
+    display:inline-block;   
+    font-weight:normal;
+    font-size:20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height:34px;
+    text-decoration: none;
+    color:#222;
+    background-color:#F5F5F5;
+    background-image: linear-gradient(#f4f4f4, #eee 50%, #d9d9d9 50%, #f4f4f4);
+    outline:none;
+    border:1px solid #CCC;
+    border-bottom:none;
+    border-radius:3px 3px 0 0;
+    position:relative;
+}
+        
+ul.rtabs li a:link, ul.rtabs li a:visited
+{
+    color:#222;
+}
+        
+ul.rtabs li a:hover
+{
+    color: #525252;
+    border-color: #01A3E8; 
+    background-color:#eee;
+    background-image: linear-gradient(#fcfcfc, #f9f9f9 50%, #e9e9e9 50%, #fcfcfc);
+}
+  
+
+ul.rtabs li.selected a
+{
+    color:#2E3138;
+    font-weight:normal;
+    border-color:#DDD; 
+    background:#01A3E8; 
+}   
+        
+ul.rtabs li.selected a:hover
+{
+    text-decoration:none;
+} */
+
+ul#tabs { 
+    list-style-type: none; 
+    margin: 30px 0 0 0; 
+    padding: 0 0 0.3em 0; 
+}
+ul#tabs li { 
+    display: inline; 
+}
+ul#tabs li a { 
+    color: #42454a; 
+    background-color: #dedbde; 
+    border: 1px solid #c9c3ba; 
+    border-bottom: none; 
+    padding: 0.5em; 
+    text-decoration: none;
+    font-size: 18px; 
+    -webkit-transition-duration: 0.2s; 
+    transition-duration: 0.2s;
+     font-family: 'Ubuntu', sans-serif;
+}
+ul#tabs li a:hover { 
+    background-color: #f1f0ee; 
+}
+ul#tabs li a.selected { 
+    color: #000; 
+    background-color: #01A3E8; 
+    font-weight: bold; 
+    padding: 0.7em 0.3em 0.38em 0.3em; 
+}
+div.tabContent {  
+    padding: 0.5em; 
+}
+div.tabContent.hide { 
+    display: none; 
+}
+/* ========================= end header tab ========================== */
+.panel-container
+{
+    max-width: 100%;
+    width: 100%;
+    border:1px solid #DDD;
+    border-radius:0 4px 4px 4px;
+    background-color:white;    
+    padding:30px 0 40px 0; 
+    margin:0px;
+    margin-top:-2px;
+}
+#view1 {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+#view1 h1, #view2 h1, #view3 h1 {
+    margin: 40px 0;
+}
+#one-container {
+    display: table;
+    margin: 0 auto;
+}
+#one {
+     display: inline-block;
+     margin: auto auto;
+     text-align: center;
+}
+
+#one img {
+    width: 30%;
+    height: auto;
+    border:0;
+    display:block;
+    margin:auto;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+#two-container {
+    display: table;
+    margin: 0 auto;
+}
+#two {
+     display: inline-block;
+     margin: auto auto;
+     text-align: center;
+}
+#two img {
+    width: 30%;
+    height: auto;
+    border:0;
+    display:block;
+    margin:auto;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);  
+    border-radius: 10px;  
+}
+#three-container {
+    display: table;
+    margin: 0 auto;
+}
+#three {
+     display: inline-block;
+     margin: auto auto;
+     text-align: center;
+}
+#three img {
+    width: 30%;
+    height: auto;
+    border:0;
+    display:block;
+    margin:auto;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);  
+    border-radius: 10px;  
+}
+#fourth-container {
+    max-width: 100%;
+    width: 100%;
+}
+#fourth {
+     display: inline-block;
+     margin: auto auto;
+     text-align: center;
+     max-width: 100%;
+     width: 100%;
+}
+#fourth img {
+    float: left;
+    height: auto;
+    border:0;
+    display:block;
+    margin:  0 8%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;  
+}
+
+#fifth-container {
+    max-width: 100%;
+    width: 100%;
+}
+#fifth {
+     display: inline-block;
+     margin: auto auto;
+     text-align: center;
+     max-width: 100%;
+     width: 100%;
+}
+#fifth img {
+    float: left;
+    max-width: 100%;
+    width: 20%;
+    height: auto;
+    border:0;
+    display:block;
+    margin:  0 5%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;  
+}
+
+#sixth-container {
+    display: table;
+    margin: 0 auto;
+}
+#sixth {
+     display: inline-block;
+     margin: auto auto;
+     text-align: center;
+}
+#sixth img {
+    width: 30%;
+    height: auto;
+    border:0;
+    display:block;
+    margin:auto;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);  
+    border-radius: 10px;  
+}
+#seventh-container {
+    display: table;
+    margin: 0 auto;
+}
+#seventh {
+     display: inline-block;
+     margin: auto auto;
+     text-align: center;
+}
+#seventh img {
+    width: 100%;
+    height: auto;
+    border:0;
+    display:block;
+    margin:auto;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);  
+    border-radius: 10px;  
+}
+#eigth-container {
+    max-width: 100%;
+    width: 100%;
+}
+#eigth {
+     display: inline-block;
+     margin: auto auto;
+     text-align: center;
+     max-width: 100%;
+     width: 100%;
+}
+#eigth img {
+    float: left;
+    max-width: 100%;
+    width: 30%;
+    height: auto;
+    border:0;
+    display:block;
+    margin:  0 8%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5); 
+    border: 1px solid red; 
+    border-radius: 10px;  
+}
+
+#ninth-container {
+    display: table;
+    margin: 0 auto;
+}
+#ninth {
+     display: inline-block;
+     margin: auto auto;
+     text-align: center;
+}
+#ninth img {
+    width: 100%;
+    height: auto;
+    border:0;
+    display:block;
+    margin:auto;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);  
+    border-radius: 10px;  
+}
+
+#tenth-container {
+    max-width: 100%;
+    width: 100%;
+}
+#tenth {
+     display: inline-block;
+     margin: auto auto;
+     text-align: center;
+     max-width: 100%;
+     width: 100%;
+}
+#tenth img {
+    float: left;
+    max-width: 100%;
+    width: 20%;
+    height: auto;
+    border:0;
+    display:block;
+    margin:  0 5%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;  
+}
+
+#eigth-container {
+    max-width: 100%;
+    width: 100%;
+}
+#eigth {
+     display: inline-block;
+     margin: auto auto;
+     text-align: center;
+     max-width: 100%;
+     width: 100%;
+}
+#eigth img {
+    float: left;
+    max-width: 100%;
+    width: 30%;
+    height: auto;
+    border:0;
+    display:block;
+    margin:  0 8%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;  
+}
+
+#eleventh-container {
+    max-width: 100%;
+    width: 100%;
+}
+#eleventh {
+     display: inline-block;
+     margin: auto auto;
+     text-align: center;
+     max-width: 100%;
+     width: 100%;
+}
+#eleventh img {
+    float: left;
+    max-width: 100%;
+    width: 10%;
+    height: auto;
+    border:0;
+    display:block;
+    margin:  0 5%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;  
+}
+
+#twelfth-container {
+    max-width: 100%;
+    width: 100%;
+}
+#twelfth {
+     display: inline-block;
+     margin: auto auto;
+     text-align: center;
+     max-width: 100%;
+     width: 100%;
+}
+#twelfth img {
+    float: left;
+    max-width: 100%;
+    width: 15%;
+    height: auto;
+    border:0;
+    display:block;
+    margin:  2% 8%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;  
+}
+
+#tenth-container {
+    max-width: 100%;
+    width: 100%;
+}
+#tenth {
+     display: inline-block;
+     margin: auto auto;
+     text-align: center;
+     max-width: 100%;
+     width: 100%;
+}
+#tenth img {
+    float: left;
+    max-width: 100%;
+    width: 20%;
+    height: auto;
+    border:0;
+    display:block;
+    margin:  0 5%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;  
+}
+#thirteen-container {
+    display: table;
+    margin: 0 auto;
+}
+#thirteen {
+     display: inline-block;
+     margin: auto auto;
+     text-align: center;
+}
+#thirteen img {
+    width: 80%;
+    height: auto;
+    border:0;
+    display:block;
+    margin:auto;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);  
+    border-radius: 10px;  
+}
+
+/* ============= Media Query for sponsors 2015 ====================== */
+
+/* ===== for general,lower screen ====== */
+@media only screen and (max-width:705px){
+   #two img, #three img, #sixth img , #seventh img, #ninth img, #tenth img {
+    width: 50%;
+  }
+}
+@media only screen and (max-width:705px){
+   #one img {
+    width: 70%;
+   }
+}
+
+/* ==== 4th ======== */
+@media only screen and (max-width:1070px){
+  #fourth img {
+     margin: 7%;
+  }
+}
+
+@media only screen and (max-width:909px){
+  #fourth img {
+     margin: 4%;
+  }
+}
+  
+@media only screen and (max-width:735px){
+  #fourth img {
+     margin: 2%;
+  }
+}
+@media only screen and (max-width:640px){
+   #fourth img {
+     width: 50%;
+     float:none;
+     display: table;
+    margin: 20px auto;
+
+  }
+}
+
+/*========= 5th ======== */
+@media only screen and (max-width:909px){
+  #fifth img {
+     margin: 4%;
+  }
+}
+@media only screen and (max-width:554px){
+  #fifth img {
+    width: 50%;
+     float:none;
+     display: table;
+    margin: 20px auto;
+
+  }
+}
+
+/* ======== 8th ========= */
+@media only screen and (max-width:718px){
+   #eigth img {
+     width: 50%;
+     float:none;
+     display: table;
+    margin: 20px auto;
+
+  }
+}
+/* ======== 10th ========= */
+@media only screen and (max-width:710px){
+   #tenth img {
+     width: 50%;
+     float:none;
+     display: table;
+    margin: 20px auto;
+
+  }
+}
+
+/* ======== 11th ========= */
+@media only screen and (max-width:538px){
+   #eleventh img {
+     width: 40%;
+     float:none;
+     display: table;
+    margin: 20px auto;
+
+  }
+}
+
+/* ==== 12th ======== */
+@media only screen and (max-width:1105px){
+  #twelfth img {
+     width: 15%;
+     margin: 7%;
+  }
+}
+@media only screen and (max-width:836px){
+  #twelfth img {
+     width: 20%;
+     margin: 5%;
+  }
+}
+@media only screen and (max-width:784px){
+  #twelfth img {
+     width: 25%;
+     margin: 10%;
+  }
+}
+@media only screen and (max-width:662px){
+  #twelfth img {
+     width: 50%;
+     float:none;
+     display: table;
+    margin: 20px auto;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width:480px){
+    ul#tabs li { 
+      display: block; 
+      margin: 25px 0;
+    }
+}

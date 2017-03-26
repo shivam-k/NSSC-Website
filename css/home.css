@@ -1,0 +1,1047 @@
+/* Base */
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display';
+@import 'https://fonts.googleapis.com/css?family=Inconsolata';
+@import 'https://fonts.googleapis.com/css?family=Aclonica';
+
+
+
+/* Base */
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+
+
+/* =================================== Style for navigation ============================= */
+
+#section-2 .btn-scroll {
+  display: block;
+  width: 4%;
+  height: 8.5%;
+  background: url("../img/up2.svg") no-repeat 0 0;
+  background-size: contain;
+  right: 18.5%;
+  top: 65%;
+  position: absolute;
+  z-index: 5;
+  animation-name: section-1-arrow;
+  -webkit-animation-name: section-1-arrow;
+  -moz-animation-name: section-1-arrow;
+  -o-animation-name: section-1-arrow;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  -webkit-transform-origin: 50% 50% 50%;
+  -moz-transform-origin: 50% 50% 50%;
+  -ms-transform-origin: 50% 50% 50%;
+  -o-transform-origin: 50% 50% 50%;
+  transform-origin: 50% 50% 50%;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+
+.home-nav {
+	max-width: 100%;
+	width: 100%;
+	background-color: #2E3138;
+	height: 80px;
+	z-index: 1000;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.align-side {
+	float: left;
+	z-index: 1000;
+}
+
+#nssc-logo {
+   margin-left: 1.5%;
+   margin-top: 1%;
+  max-width:100%;
+  width: 6%;
+  z-index: 1000;
+  display: block;
+}
+#nssc-logo img {
+    padding: 2% 20% 2% 10%;
+    border-right: 1px solid rgba(255,255,255,0.5);
+    z-index: 1000;
+}
+
+#nav-links {
+  max-width: 100%;
+  width: 90%;
+  margin-top: 1.5%;
+  margin-left: auto;
+  z-index: 1000;
+}
+.nav-element {
+	max-width: 100%;
+	float: left;
+	display: block;
+	margin: 1% 1.0%;	
+	z-index: 1000;
+}
+.nav-element a {
+	font-size: 12px;
+	text-decoration: none;
+	color: white;
+	padding-bottom: 15px;
+	-webkit-transition: all 1s ease;
+    transition: all 1s ease; 
+    z-index: 1000;
+}
+#nav-links .nav-element a:hover {
+	color: #01A3E8;
+	text-decoration: none;
+	border-bottom: 5px solid #01A3E8;
+	z-index: 1000;
+}
+
+.nssc-head {
+	text-align: center;
+}
+#nav-links #imp1 a {
+    color: #FFF;
+    border-bottom: 5px solid #01A3E8;
+}
+ #nav-links #imp1 a:hover {
+   
+    color: #01A3E8;
+}
+#nav-links #imp2 a {
+    color: #FFF;
+    border-bottom: 5px solid #01A3E8;
+}
+ #nav-links #imp2 a:hover {
+    color: #01A3E8;
+}
+
+#list-modal {
+  display: none;    /* hiding nav-list-modal for windows width  */
+}
+
+/* ================ Style for navigation for lower screen ================== */
+#list-modal {
+  max-width: 100%;
+  width: auto;
+  position: relative;
+  right: 10%;
+  top: 25%;
+}
+#list-modal .fa-bars {
+  font-size: 30px;
+   -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+#list-modal .fa-bars:hover {
+  color: #01A3E8;
+}
+#list-modal button {}
+
+/* ========================== modal of nav for low screen width ====================== */
+.modal2 {
+   display: none; 
+    position: fixed; 
+    padding-top: 25px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+/* Modal Content */
+.modal-content2 {
+     position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.closee {
+   color: white;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.closee:hover,
+.closee:focus {
+   color:  #01A3E8;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header2 {
+    padding: 0px 16px;
+    background-color: #2E3138;
+    color: #01A3E8;
+    text-align: center;
+}
+
+.modal-body2 {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  background-color: #2E3138;
+}
+#nav-short-container {
+   display: table;
+   margin: 0px auto;
+   width: 95%;
+
+}
+#nav-links-short-container {
+  max-width: 100%;
+  width: 30%;
+  padding: 0px 0;
+  border-radius: 2%;
+  height: auto;
+  text-align: center;
+  background-color: rgba(82,82,82,0.5);
+   -webkit-transition: all 1s ease;
+    transition: all 1s ease; 
+}
+#nav-links-short-container a {
+    text-decoration: none;
+    color:rgba(255,255,255,0.6);
+    font-size: 15px;
+     -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+#nav-links-short-container a:hover {
+  color: #01A3E8;
+}
+.links-short {
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding-bottom: 10px;
+  margin: 15px;
+  color: #01A3E8;
+   -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.links-short:hover {
+   border-bottom: 1px solid rgba(255,255,255,1);
+}
+
+.box-flow {
+  float: left;
+  margin: 50px 8%;
+}
+#nav-extra-short-container {
+  max-width: 100%;
+  width: 30%;
+  height: auto;
+}
+#nav-extra-short-container #updates-container {
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
+}
+#updates-container {
+  background-color: rgba(82,82,82,0.5);
+  padding: 25px 0;
+ border-radius: 15px;
+   margin-bottom: 50px;
+   -webkit-transition: all 1s ease;
+    transition: all 1s ease; 
+}
+#updates-container:hover {
+    background-color: rgba(82,82,82,1);
+}
+#updates-container h2 {
+  color: #01A3E8;
+}
+div#updates-container a {
+   color: #01A3E8;
+   text-decoration: none;
+}
+#nav-extra-sa {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  background-color: rgba(82,82,82,0.5);
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 25px 0;
+   border-radius: 15px;
+   -webkit-transition: all 1s ease;
+    transition: all 1s ease; 
+}
+#nav-extra-sa:hover {
+   background-color: rgba(82,82,82,1);
+}
+#nav-extra-sa a {
+    color:#01A3E8;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 15px;
+  -webkit-transition: all 1s ease;
+    transition: all 1s ease; 
+}
+#nav-extra-sa a:hover {
+    color: #01A3E8;
+  text-decoration: none;
+  border-bottom: 5px solid #01A3E8;
+}
+
+
+/* ======================================== Modal for SubsCribe Us ======================== */
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color:  #01A3E8;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 10px 16px;
+    background-color: white;
+    color: #01A3E8;
+    text-align: center;
+}
+
+.modal-body {
+  padding: 2px 60px;
+  background-color:  #44A7BC;
+}
+
+.modal-body input[type=text], .modal-body input[type=email] {
+  max-width: 100%;
+  width: 35%;
+  height: 25px;
+  margin: 25px 5%;
+  background-color: #FFF;
+  padding: 1% 2%;
+  color: #555;
+  font-size: 15px;
+  border:1px solid #FFF;
+  -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+input[type=text]:focus,input[type=email]:focus {
+  border: 1px solid #01A3E8;
+  background-color: #2E;
+  font-size: 20px;
+}
+input[type=text]:visited,input[type=email]:visited {
+   color: #01A3E8;
+   font-size: 20px;
+}
+
+.modal-footer {
+    padding: 10px 16px;
+    background-color: white;
+    color: white;
+    height: 25px;
+}
+input[type=submit] {
+  max-width: 100%;
+  width: 20%;
+  padding: 2% 0;
+  margin: 0 40% 25px 40%;
+  position: relative;
+  background-color: #2E3138;
+  border: 1px solid #2E3138;
+  color: #FFF;
+  -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+input[type=submit]:hover {
+  background-color: #01A3E8;
+
+}
+
+
+
+/* ==================== Media Query fo Modal of Subscribe ============================ */
+
+/* ========== defining navigation for lower screen =============== */
+@media only screen and (max-width: 1277px) {
+    #list-modal {
+      display: block; 
+      float: right;
+    }
+    #nav-links {display: none;}
+
+     #nssc-logo img {
+      padding: 2% 50% 2% 10%;
+    }
+}
+@media only screen and (max-width: 742px) {
+    #nav-extra-sa a:hover {
+       border-bottom: 0px solid #01A3E8;
+    }
+}
+
+@media only screen and (max-width: 526px) {
+    .box-flow {
+       margin: 50px 1%;
+     }
+    #nav-links-short-container {
+       max-width: 100%;
+       width: 45%;
+    }
+     #nav-extra-short-container {
+        max-width: 100%;
+        width: 45%;
+    }
+     #nssc-logo img {
+      margin-top:10px;
+    }
+
+}
+@media only screen and (max-width: 417px) {
+    .box-flow {
+       margin: 50px 0%;
+     }
+    #nav-links-short-container {
+       max-width: 100%;
+       width: 49%;
+    }
+     #nav-extra-short-container {
+        max-width: 100%;
+        width: 49%;
+    }
+
+}
+
+@media only screen and (max-width: 882px) {
+      .modal-body input[type=text], .modal-body input[type=email] {
+         max-width: 100%;
+         width: 80%;
+       
+  }   
+
+      input[type=submit] {
+       max-width: 100%;
+       width: 30%;
+       padding: 4% 0;
+       margin: 0 40% 25px 40%;
+     }
+   
+}
+
+@media only screen and (max-width: 596px) {
+
+     .modal-body {
+        padding: 2px 20px;
+
+     }
+
+     .modal-body input[type=text], .modal-body input[type=email] {
+         max-width: 100%;
+         width: 95%;
+        margin: 25px 1%;
+  }   
+
+      input[type=submit] {
+       max-width: 100%;
+       width: 60%;
+       padding: 4% 0;
+       margin: 0 20% 25px 20%;
+     }
+   
+  
+}
+
+
+/* ========================== media query for nav =========================== */
+
+
+@media only screen and (max-width: 1047px) {
+        
+        #nav-links {
+          display:none;
+        }
+        .align-side {
+          float: left;
+        }
+        #select-drop-down {
+          display: visible;
+          max-width: 100%;
+          width: 60%;
+          color: white;
+          display: block;
+          margin-top: 25px;
+          margin-left: 5%;
+          background-color: black;
+        }
+        #select-drop-down select {
+          max-width: 100%;
+          width: 100%;
+          height: 50px;
+          background-color: #555;
+          color: white;
+        }
+
+}
+
+
+
+/* ============================== for homepage center pic =============================== */
+
+
+#section-2 {
+	max-width: 100%;
+	width: 100%;
+	margin-top: 70px;
+}
+.home-content {
+	max-width: 100%;
+	width: 100%;
+	
+}
+.part-home {
+  max-width: 100%;
+  width: 100%;
+}
+
+.part1-content {
+  display: table;
+  margin: 0 auto;
+}
+.part1-content img,h3 {
+    display: inline-block;
+}
+.part1-content h3 {
+  font-size: 30px;
+  font-size: 1.5vw;
+}
+.part-home p {
+  font-size: 30px;
+  font-size: 1.5vw;
+  margin: 0 0;
+  font-family: 'Aclonica', sans-serif;
+  color: #FF4A56;
+}
+h3 > pre {
+  font-family: 'Ubuntu', sans-serif;
+}
+.part1-content img {
+   position: relative;
+   top: 25px;
+}
+div.part1-content .iit-img1 {
+  max-width: 100%;
+  width: 10%;
+}
+div.part1-content .iit-img2 {
+    width: 160px;
+}
+.nssc-tag {
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
+}
+.nssc-tag h2 {
+  display: table;
+  margin: 10px auto 20px auto;
+  font-size: 4.0em;
+  font-size: 4.0vw;
+  color: #01A3E8;
+  line-height: 50px;
+}
+.nssc-tag h3 {
+  font-family: 'Aclonica', sans-serif;
+  color: #FF4A56;
+  font-size: 30px;
+  font-size: 1.0vw;
+  text-align: center;
+  margin: 0 0;
+}
+.home-bottom-container {
+  max-width: 100%;
+  width: 100%;
+}
+.bottom-part {
+  max-width: 100%;
+  width: 33%;
+  float: left;
+}
+#bottom-part1-container {
+  vertical-align: center;
+  position: relative;
+  top: 50px;
+}
+#bottom-part1-container h3 {
+  text-align: center;
+  font-size: 30px;
+  font-size: 1.0vw;
+}
+.bottom-part1 {
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
+   padding: 10px 0;
+  border-radius: 10px;
+}
+.bottom-part1 img {
+  max-width: 100%;
+  width: 20%;
+  display: inline-block;
+  position: relative;
+  top: 30px;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+.bottom-part1-one {
+  display: table;
+  margin: auto;
+}
+#bottom-part2-container img {
+  max-width: 100%;
+  width: 100%;
+  display: table;
+  margin: 0 auto;
+  position: relative;
+  top: -60px;
+}
+.nssc-date-mid {
+   text-align: : center;
+  }
+.nssc-date-mid p {
+  font-family: 'Aclonica', sans-serif;
+  color: #FF4A56;
+  font-size: 10px;
+  font-size: 0.2vw;
+  text-align: center
+}
+#bottom-part2-container h3 {
+font-family: 'Aclonica', sans-serif;
+   text-align: center;
+  font-size: 30px;
+  font-size: 1.5vw;
+}
+#bottom-part3-container {
+  vertical-align: center;
+  position: relative;
+  top: 70px;
+}
+.bottom-part3 {
+  display: table;
+  margin: 0 auto;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+.bottom-part3 h3 {
+  font-family: 'Aclonica', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-size: 1.0vw;
+}
+#bottom-part3-1 img {
+  max-width: 100%;
+  width: 50%;
+  display: table;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+#bottom-part3-2 img {
+  max-width: 100%;
+  width: 50%;
+  display: table;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+.bottom-part-float {
+  float: left;
+  max-width: 100%;
+  width: 48%;
+  text-align: center;
+}
+@media only screen and (max-width: 560px) {
+   div.part1-content .iit-img2 {
+      width: 130px;
+   }
+   div.part1-content .iit-img1 {
+    max-width: 100%;
+    width: 15%;
+   }
+}
+@media only screen and (max-width: 1232px) {
+   #bottom-part2-container img {
+      position: relative;
+      top: -50px;
+    }
+}
+@media only screen and (max-width: 928px) {
+   #bottom-part2-container img {
+      position: relative;
+      top: -40px;
+    }
+}
+@media only screen and (max-width: 698px) {
+   #bottom-part2-container img {
+      position: relative;
+      top: -30px;
+    }
+}
+@media only screen and (max-width: 596px) {
+   .bottom-part-float {
+      float: none;
+      width: 80%;
+   }
+   #bottom-part3-container {
+       position: relative;
+       top: 00px;
+   }
+}
+@media only screen and (max-width: 596px) {
+   .nssc-tag h3 {
+      font-size: 35px;
+      font-size: 3.5vw;
+      text-align: center;
+      margin: 0 0;
+    }
+   #bottom-part2-container img {
+      position: relative;
+      top: 0px;
+    }
+}
+@media only screen and (max-width: 596px) { 
+  .bottom-part1, .bottom-part3 {
+    display: none;
+  }
+
+}
+@media only screen and (max-width: 596px) { 
+   #presents-here {
+       margin-top: 50px;
+   }
+   .bottom-part {
+      max-width: 100%;
+      width: 100%;
+   }
+   #bottom-part2-container img {
+      max-width: 100%;
+      width: 50%;
+    }
+}
+@media only screen and (max-width: 300px) { 
+  #bottom-part2-container img {
+      max-width: 100%;
+      width: 80%;
+    }
+
+}
+
+
+/* =============================== poster css ============================== */
+.section-7 {
+	max-width: 100%;
+	width: 100%;
+}
+.section-7 .containerr {
+	max-width: 100%;
+	width: 100%;
+       height: auto;
+       position: relative;
+ 
+}
+#announce{
+	max-width:100%;
+	width:100%;
+	height: 310px;
+	position: relative;
+	top: 200px;
+	margin: 0px;
+	padding: 0px;
+    border-bottom: 10px solid #EF9100;
+}
+.announce-flow {
+	float: left;
+	max-width: 100%;
+	width: 35%;
+}
+#last-year-photos {
+  max-width: 100%;
+  width: 300px; height: 300px;
+  border-top: 10px solid #ccc; 
+  background-color: rgba(1,61,87,1);
+ margin-left: 22%;
+  margin-right: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#last-year-photos h2 {
+	display: block;
+	margin-top: 10%;
+	margin-left:20px;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #ED9200;
+	font-family: 'Lobster', cursive;
+	font-size: 2.5em;
+	font-weight: normal;
+}
+#last-year-photos a {
+	display: inline-block;
+	text-decoration: none;
+	color: #ED9200;
+	margin-top: 0px;
+}
+#last-year-photos a:hover {
+	color: #FAC801; 
+}
+.last-photos {
+	margin-left:20px;
+}
+.last-photos img {
+	width: 80px; height: 80px;
+	margin: 1%;
+}
+#last-year-photos .last-photos h6 {
+	font-size: 12px;
+	font-weight: none;
+	font-style: italic;	
+}
+#last-year-photos .last-photos h6:hover {
+	
+}
+
+#poster-events {
+  max-width: 100%;
+  width: 300px; height: 300px;
+  border-top: 10px solid #EF9100;
+  margin-right: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#poster-events img {
+width: 300px; height: 300px;
+} 
+
+#announce-updates {
+	max-width: 100%;
+	width: 300px; height: 300px;
+	 border-top: 10px solid #ccc; 
+	background-color: rgba(1,61,87,1);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-right: 12%;
+	
+}
+#announce-updates h2 {
+	display: block;
+	margin-top: 10%;
+	margin-left:20px;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #ED9200;
+	font-family: 'Lobster', cursive;
+	font-size: 2.5em;
+	font-weight: normal;
+}
+#announce-updates h6 {
+	margin-left:40px;
+	font-size: 12px;
+        line-height: 15px;
+	font-weight: none;
+	font-style: italic;	
+	margin: 0; padding: 0; font-weight: none;
+	text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+}
+/* =================================== Media Query for announce ============================= */
+
+
+@media only screen and (max-width: 1030px) {
+      #last-year-photos { 
+         width: 250px; height: 250px;  
+          margin-left: 10%;
+         }
+      #poster-events {
+        max-width: 100%;
+        width: 250px; height: 250px;
+       }
+      #announce-updates {
+      	margin-right: 10%;
+        width: 250px; height: 250px;
+      }
+      .last-photos img {
+	    width: 50px; height: 50px;
+	    margin: 1%;
+	   
+    }
+    #poster-events img {
+       width: 250px; height: 250px;
+    }
+    #announce{
+	   max-width:100%;
+	   width:100%;
+	   height: 260px;
+   }
+}
+@media only screen and (max-width: 988px) {
+  
+}
+@media only screen and (max-width: 877px) {
+    #last-year-photos { 
+         width: 180px; height: 180px;  
+          margin-left: 15%;
+         }
+      #poster-events {
+        max-width: 100%;
+        width: 180px; height: 180px;  
+       }
+      #announce-updates {
+      	margin-right: 10%;
+        width: 180px; height: 180px;  
+      }
+      .last-photos img {
+	    display: none;	   
+    }
+    #poster-events img {
+      width: 180px; height: 180px;  
+    }
+    #announce{
+	   max-width:100%;
+	   width:100%; 
+	   position: relative;
+	   top: 190px;
+	   max-width:100%;
+	   width:100%;
+	   height: 190px;
+   }
+
+   #last-year-photos h2 {
+      font-size: 1.5em;
+   }
+   .announce-flow {
+	float: left;
+	max-width: 100%;
+	width: 35%;
+}
+
+
+@media only screen and (max-width: 877px) {
+      #announce{
+         top: 90px;
+      }
+       #last-year-photos { 
+         margin-left: 25%;
+       }
+     #poster-events {
+         margin-right: 25%;
+      }
+      #announce-updates {
+       margin-left: 37%;
+    }
+}
+
+@media only screen and (max-width: 877px) {
+      #last-year-photos { 
+         margin-left: 20%;
+         margin-right: 10%;
+       }
+     #poster-events {
+         margin-right: 10%;
+      }
+}
+
+@media only screen and (max-width: 606px) {
+      #last-year-photos { 
+         margin-left: 10%;
+         margin-right: 5%;
+       }
+     #poster-events {
+         margin-right: 0%;
+      }
+       #announce{
+       position: relative;
+       top: 120px;
+    }
+}
+@media only screen and (max-width: 431px) {
+      #last-year-photos { 
+         margin-left: 5%;
+         margin-right: 5%;
+       }
+     #poster-events {
+         margin-right: 0%;
+      }
+      #announce-updates {
+       margin-left: 28%;
+    }
+}
+
+
+}
+
+
